@@ -64,19 +64,21 @@ display: none;
   .op:not(:first-child){  
     display:block;
     float: right;
+    
+    align-items: center;
     padding: 0px 25px;
     padding-top: 1%
   }
 
   .nogo:first-child{
     padding: center;
-    padding-left: 12% 7%;
+    padding-left: 4%;
     font-size: 150%; 
     line-height: 140%; 
   }
   .nogo:hover:first-child{
     padding: center;
-    padding-left: 7%;
+    padding-left: 4%;
     font-size: 150%; 
     line-height: 140%; 
   }
@@ -85,7 +87,9 @@ display: none;
 .op{
 display: none;
 float: right;
-padding: 12px 25px;
+    
+align-items: center;
+padding: 0px 25px;
 padding-top: 1%
 }
 
