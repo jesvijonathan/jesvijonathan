@@ -64,10 +64,16 @@ display: none;
   .topnav a:not(:first-child) {display: none;}
   .active{display: none;}
   .nogo:first-child{
-    padding: 0% 25%;
+    padding: center;
+    padding-left: 30%;
+    font-size: 150%; 
+    line-height: 140%; 
   }
   .nogo:hover:first-child{
-    padding: 0% 25%;
+    padding: center;
+    padding-left: 30%;
+    font-size: 150%; 
+    line-height: 140%; 
   }
 }
 
@@ -102,27 +108,4 @@ display: none;
   animation: lotit 250ms;
   animation-timing-function: ease;
   animation-fill-mode: both;
-}
-
-
-@keyframes lotit{
-  0%{
-      font-size: 31px; 
-      color: #fffdfd;   
-  }
-  100%{
-      font-size: 32px; 
-      color: rgba(255, 255, 255, 0.77);        
-  }
-}
-
-@keyframes lotit-off{
-  0%{
-      font-size: 32px; 
-      color: rgba(255, 255, 255, 0.77) ;                
-  }
-  100%{
-      font-size: 31px;
-      color: #fffdfd; 
-  }
 }
