@@ -7,16 +7,14 @@ body {
   position: fixed;
   background-color: rgb(51, 51, 51);
   width: 100%;
+  transition: top 0.3s; 
 }
 
 
 .navbut a {
   float: right;
   text-align: center;
-
   text-decoration: none;
-
-
   background-color: rgba(32, 11, 4, 0.322);
   color: #fff;
   
@@ -125,10 +123,11 @@ display: none;
   height: 100%;
   width: 0;
   position: fixed;
+  transition: top 0.3s; 
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: rgba(17, 17, 17, 0.98);
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
