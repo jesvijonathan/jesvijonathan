@@ -84,6 +84,9 @@ display: none;
 
 .op{
 display: none;
+float: right;
+padding: 0px 25px;
+padding-top: 1%
 }
 
 /* Main Name Animation & Position*/
