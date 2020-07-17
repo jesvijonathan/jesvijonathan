@@ -97,9 +97,11 @@ display: none;
 float: right;
 height: 48px;
 color:rgba(255, 255, 255, 0.25);
+transition: ease 0.5s;
 }
 
 .op:hover{
+  color:rgba(255, 255, 255, 0.7);
   animation: shake 0.7s;
   animation-delay: 250ms;
 }
@@ -153,7 +155,7 @@ color:rgba(255, 255, 255, 0.25);
 
   font-family: OCR A; 
   text-decoration: none;
-  color: #fffdfd8f;  
+  color: #8b8b8ba8;  
   font-size: 31.5px; 
   line-height: 40px; 
   border-radius: 10px;
