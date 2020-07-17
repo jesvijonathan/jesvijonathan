@@ -105,14 +105,13 @@ height: 45px;
 }
 
 .op:hover{
-  color:rgba(255, 255, 255, 0.7);
+  color:rgba(255, 255, 255, 0.8);
   animation: shake 0.7s;
   animation-delay: 250ms;
 }
 
 .op:focus {
     animation: rot 1s;
-    background-color: rgba(17, 17, 17, 0.98);
   }
 
 @keyframes rot{
@@ -200,7 +199,7 @@ margin-left: 31%;
 
 .sia{
 
-  margin-top: 120px;
+  margin-top: 25%;
 
   margin-left: 31%;
   width: 40%;
