@@ -1,11 +1,12 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(17, 17, 17, 0.98);
 }
 
 .topnav {
   position: fixed;
-  background-color: rgb(51, 51, 51);
+  background-color: rgba(51, 51, 51, 0.404);
   width: 100%;
   transition: top 0.3s; 
 }
@@ -15,7 +16,7 @@ body {
   float: right;
   text-align: center;
   text-decoration: none;
-  background-color: rgba(32, 11, 4, 0.322);
+  background-color: rgba(56, 56, 56, 0.5);
   color: #fff;
   
   margin-top: 16px;
@@ -28,18 +29,26 @@ body {
   margin-right: 20px;
   font-size: 14px;
 
-
+  transition: 250ms;
   border-radius: 15px;
 }
 
 .navbut a:hover {
-  background-color: #ddd;
+  background-color:rgba(255, 255, 255, 0.8);
   color: black;
+  transition: 250ms;
 }
 
 .navbut a.active {
-  background-color: #4CAF50;
-  color: white;
+
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.navbut a.active:hover{
+
+  background-color:rgba(255, 255, 255, 0.8);
+  color: black;
 }
 
 .icon {
@@ -59,7 +68,7 @@ display: none;
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+  .navbut {display: none;}
   .active{display: none;}
   .op:not(:first-child){  
     display:block;
@@ -105,9 +114,7 @@ padding-top: 1%
   font-size: 31px; 
   line-height: 40px; 
   border-radius: 10px;
-  
-  animation: lotit-off 250ms;
-  animation-timing-function: ease;
+  transition: 350ms;
 }
 
 .nogo:hover {
@@ -116,14 +123,12 @@ padding-top: 1%
 
   font-family: OCR A; 
   text-decoration: none;
-  color: #fffdfd;  
-  font-size: 32px; 
+  color: #fffdfdb2;  
+  font-size: 31.5px; 
   line-height: 40px; 
   border-radius: 10px;
 
   animation: lotit 250ms;
-  animation-timing-function: ease;
-  animation-fill-mode: both;
 }
 
 .sidenav {
@@ -142,13 +147,44 @@ padding-top: 1%
 }
 
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+
+
+}
+
+.si{
+  margin-left: 35%;
+  margin-right: 35%;
+margin-top: 3%;
+
+
+  height: 13%;
+  width: 30%;
   text-decoration: none;
   font-size: 25px;
   color: #818181;
   display: block;
   transition: 0.3s;
 
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.8);
+
+}
+
+.sia{
+
+  margin-left: 35%;
+  margin-right: 35%;
+margin-top: 3%;
+
+  width: 30%;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .sidenav a:hover{
@@ -161,6 +197,12 @@ padding-top: 1%
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
 }
 
 @media screen and (max-height: 450px) {
