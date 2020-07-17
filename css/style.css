@@ -154,7 +154,7 @@ padding-top: 1%
 .si{
   margin-left: 26%;
   margin-top: 3%;
-  height: 13%;
+  height: 7%;
   width: 50%;
   
   text-align: center;
@@ -164,18 +164,12 @@ padding-top: 1%
   display: block;
   transition: 0.3s;
 
-
-
 }
 
 .sia{
-
-  padding-top: 2%;
-
-  margin-left: 36%;
-  margin-top: 3%;
-  height: 13%;
-  width: 30%;
+  margin-left: 30%;
+  
+  width: 40%;
 
   text-align: center;
   text-decoration: none;
@@ -185,7 +179,7 @@ padding-top: 1%
   transition: 0.3s;
 
   border-radius: 15px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.144);
 }
 
 .sidenav a:hover{
