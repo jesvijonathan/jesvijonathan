@@ -141,7 +141,7 @@ padding-top: 1%
   left: 0;
   background-color: rgba(17, 17, 17, 0.98);
   overflow-x: hidden;
-  transition: 0.5s;
+  transition: 0.4s;
   padding-top: 60px;
   text-align:center;
 }
@@ -167,7 +167,7 @@ margin-left: 31%;
 }
 
 .sia{
-    margin-top: 8%;
+    margin-top: 5%;
     margin-left: 31%;
   width: 40%;
 
@@ -201,6 +201,6 @@ margin-left: 31%;
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
+  .sidenav {padding-top: 9%;}
   .sidenav a {font-size: 18px;}
 }
