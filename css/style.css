@@ -96,10 +96,33 @@ display: none;
 .op{
 display: none;
 float: right;
-    
+color:rgba(255, 255, 255, 0.25);
 align-items: center;
 padding: 0px 25px;
-padding-top: 1%
+padding-top: 1%;
+transition: 0.3s;
+}
+
+.op:hover{
+ animation: shake 0.7s;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(0,-1px, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(0,2px, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(0,-3px, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(0,3px, 0);
+  }
 }
 
 /* Main Name Animation & Position*/
@@ -153,7 +176,7 @@ padding-top: 1%
 
 .si{
 
-  margin-top: 5%;
+  margin-top: 2%;
 margin-left: 31%;
   width: 40%;
   
@@ -167,7 +190,7 @@ margin-left: 31%;
 }
 
 .sia{
-    margin-top: 5%;
+
     margin-left: 31%;
   width: 40%;
 
@@ -183,31 +206,32 @@ margin-left: 31%;
 }
 
 .sidenav a:hover{
-  color: #f1f1f1;
+  color: #dbdbdb;
   border-radius: 15px;
   background-color: rgba(255, 255, 255, 0.055);
 
 }
 
-.sidenav .closebtn {
+.closebtn {
   position: absolute;
-  top: 0;
+  top: 10px;
   right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
   font-size: 25px;
+  margin-left: 50px;
+  padding: 5px 14px 4px 14px;
+  text-decoration: none;
   color: #818181;
   display: block;
   transition: 0.3s;
 }
 
-.sidenav .closebtn:hover{
+.closebtn:hover{
+  background-color: rgba(255, 255, 255, 0);
   color: #e0dede;
+  font-size: 120%;
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 20%;}
+  .sidenav {padding-top: 18%;}
   .sidenav a {font-size: 18px;}
 }
