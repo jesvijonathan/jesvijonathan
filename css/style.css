@@ -169,12 +169,14 @@ padding-top: 1%
 }
 
 .sia{
+
+  padding-top: 2%;
+
   margin-left: 36%;
   margin-top: 3%;
   height: 13%;
   width: 30%;
 
-  text-align: center;
   text-align: center;
   text-decoration: none;
   font-size: 25px;
