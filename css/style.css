@@ -144,7 +144,7 @@ color:rgba(255, 255, 255, 0.25);
   font-size: 31px; 
   line-height: 40px; 
   border-radius: 10px;
-  transition: 350ms;
+  transition: 250ms ease-in-out;
 }
 
 .nogo:hover {
@@ -153,7 +153,7 @@ color:rgba(255, 255, 255, 0.25);
 
   font-family: OCR A; 
   text-decoration: none;
-  color: #fffdfdb2;  
+  color: #fffdfd8f;  
   font-size: 31.5px; 
   line-height: 40px; 
   border-radius: 10px;
@@ -235,7 +235,7 @@ margin-left: 31%;
 .closebtn:hover{
   background-color: rgba(255, 255, 255, 0);
   color: #e0dede;
-  font-size: 120%;
+  font-size: 22px;
 }
 
 @media screen and (max-height: 100%) {
