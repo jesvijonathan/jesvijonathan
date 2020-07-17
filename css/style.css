@@ -184,6 +184,9 @@ margin-left: 31%;
 
 .sidenav a:hover{
   color: #f1f1f1;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.055);
+
 }
 
 .sidenav .closebtn {
@@ -200,7 +203,11 @@ margin-left: 31%;
   transition: 0.3s;
 }
 
+.sidenav .closebtn:hover{
+  color: #e0dede;
+}
+
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 9%;}
+  .sidenav {padding-top: 20%;}
   .sidenav a {font-size: 18px;}
 }
