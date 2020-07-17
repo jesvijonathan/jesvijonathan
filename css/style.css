@@ -152,39 +152,38 @@ padding-top: 1%
 }
 
 .si{
-  margin-left: 35%;
-  margin-right: 35%;
-margin-top: 3%;
-
-
+  margin-left: 26%;
+  margin-top: 3%;
   height: 13%;
-  width: 30%;
+  width: 50%;
+  
+  text-align: center;
   text-decoration: none;
   font-size: 25px;
   color: #818181;
   display: block;
   transition: 0.3s;
 
-  border-radius: 15px;
-  background-color: rgba(255, 255, 255, 0.8);
+
 
 }
 
 .sia{
-
-  margin-left: 35%;
-  margin-right: 35%;
-margin-top: 3%;
-
+  margin-left: 36%;
+  margin-top: 3%;
+  height: 13%;
   width: 30%;
+
+  text-align: center;
+  text-align: center;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #ffffff;
   display: block;
   transition: 0.3s;
 
   border-radius: 15px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .sidenav a:hover{
