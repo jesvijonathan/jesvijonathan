@@ -66,7 +66,7 @@ body {
 display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 670px) {
   .navbut {display: none;}
   .active{display: none;}
   .op:not(:first-child){  
@@ -76,6 +76,9 @@ display: none;
     align-items: center;
     padding: 0px 25px;
     padding-top: 1%
+  }
+  .op:first-child{
+    background-color: rgba(17, 17, 17, 0.98);
   }
 
   .nogo:first-child{
@@ -98,6 +101,7 @@ float: right;
 height: 48px;
 color:rgba(255, 255, 255, 0.25);
 transition: ease 0.5s;
+height: 45px;
 }
 
 .op:hover{
@@ -108,6 +112,7 @@ transition: ease 0.5s;
 
 .op:focus {
     animation: rot 1s;
+    background-color: rgba(17, 17, 17, 0.98);
   }
 
 @keyframes rot{
@@ -173,14 +178,14 @@ transition: ease 0.5s;
   left: 0;
   background-color: rgba(17, 17, 17, 0.98);
   overflow-x: hidden;
-  transition: 0.4s;
+  transition: 0.3s;
   padding-top: 60px;
   text-align:center;
 }
 
 .si{
 
-  margin-top: 3%;
+  margin-top: 5%;
 margin-left: 31%;
   width: 40%;
   
@@ -194,7 +199,7 @@ margin-left: 31%;
 }
 
 .sia{
-
+  margin-top: 20%;
     margin-left: 31%;
   width: 40%;
 
