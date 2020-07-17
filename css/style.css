@@ -176,7 +176,6 @@ transition: 0.3s;
 
 .si{
 
-  margin-top: 5%;
 margin-left: 31%;
   width: 40%;
   
@@ -232,6 +231,6 @@ margin-left: 31%;
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 80px;}
+  .sidenav {padding-top: 25%;}
   .sidenav a {font-size: 18px;}
 }
