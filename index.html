@@ -12,13 +12,16 @@
   <link rel="stylesheet" href="css/style.css">
 
   <div class="topnav" id="myTopnav">
-      <div class="logo">
-        <span class="nogo"><a>JESVI JONATHAN</a></span>
+      <div class="logo" id="logoid">
+
+        <img src="../jesvijonathan/res/img/logo.png" alt="jesvijonathan" id="lo">
+
+        <span class="nogo" id="nogoid"><a>JESVI JONATHAN</a></span>
       </div>
 
       <span style="font-size:30px;cursor:pointer" class="op" onclick="openNav()" tabindex="1">&#9776;</span>
     
-      <div class="navbut">
+      <div class="navbut" id="navbutid">
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
         <a href="#news">News</a>
@@ -26,7 +29,7 @@
     </div>
   </div>
 
-
+<section>
 
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -35,20 +38,33 @@
     <a href="#" class="si">Contact</a>
     <a href="#" class="si">About</a>
   </div>
+
   <section><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>v</section>
-  <section></section>
   
-  <script>  
-  var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("myTopnav").style.top = "0";
-  } else {
-    document.getElementById("myTopnav").style.top = "-50px";
-  }
-  prevScrollpos = currentScrollPos;
-}</script>
+  <div class="footer">
+
+
+
+  </div>
+
+  <script>
+    // When the user scrolls down 50px from the top of the document, resize the header's font size
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.getElementById("myTopnav").style.padding = "0% 0% 0%";
+        document.getElementById("nogoid").style.fontSize = "35px";
+        document.getElementById("lo").style.display = "none";
+      } else {
+        document.getElementById("myTopnav").style.padding = "3% 0% 3%";
+        document.getElementById("nogoid").style.fontSize = "40px";
+        document.getElementById("lo").style.display = "block";
+      }
+    }
+    </script>
+
+
 
 <script>
   function openNav() {

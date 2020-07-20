@@ -11,6 +11,16 @@ body {
   transition: top 0.3s; 
 }
 
+#myTopnav{
+  padding: 3% 0% 3%;
+  transition: 0.5s;
+}
+
+#nabutid{
+  transition: 0.5s;
+  font-size: 20px;
+
+}
 
 .navbut a {
   float: right;
@@ -27,7 +37,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.05);
 
   margin-right: 20px;
-  font-size: 14px;
+  
 
   transition: 250ms;
   border-radius: 15px;
@@ -140,27 +150,64 @@ height: 45px;
 
 /* Main Name Animation & Position*/
 
-.nogo{
-  padding: 10px 20px;
+#lo{
+  border-radius: 25px;
+  padding: 0px 0px 0px 20px;
   float: left;
+  width: 90px;
+  height: auto;
+  display: block; 
+  transition: 0.5s;
+  animation: grow-off 0.3s;
+  animation-timing-function: ease;
+}
 
+#lo:hover{
+  border-radius: 20px;
+  padding: 0px 0px 0px 27px;
+ 
+  float: left;
+  width: 90px;
+  height: auto;
+  animation: grow 250ms;
+  animation-timing-function: ease; 
+}
+
+@keyframes grow {
+  from {border-radius: 25px;}
+  to {border-radius: 20px;}
+}
+
+@keyframes grow-off {
+  from {border-radius: 20px;}
+  to {border-radius: 25px;}
+}
+
+#nogoid{
+
+  padding: 13px 4%;
+  float: left;
+  
   font-family: OCR A; 
   text-decoration: none;
   color: #fffdfd;  
-  font-size: 31px; 
+  
+  font-size: 35px; 
   line-height: 40px; 
   border-radius: 10px;
   transition: 250ms ease-in-out;
+  transition: 0.5s;
 }
 
-.nogo:hover {
-  padding: 10px 20px;
+
+#nogoid:hover {
+  padding: 13px 4%;
   float: left;
 
   font-family: OCR A; 
   text-decoration: none;
   color: #8b8b8ba8;  
-  font-size: 31.5px; 
+  font-size: 35px; 
   line-height: 40px; 
   border-radius: 10px;
 
