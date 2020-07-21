@@ -16,10 +16,9 @@ body {
   transition: 0.5s;
 }
 
-#nabutid{
-  transition: 0.5s;
-  font-size: 20px;
-
+#navbutid{
+  transition: 0.1s;
+  font-size: 18px;
 }
 
 .navbut a {
@@ -76,6 +75,7 @@ body {
 display: none;
 }
 
+
 @media screen and (max-width: 670px) {
   .navbut {display: none;}
   .active{display: none;}
@@ -94,38 +94,80 @@ display: none;
   .nogo:first-child{
     padding: center;
     padding-left: 4%;
-    font-size: 150%; 
-    line-height: 140%; 
+    line-height: 100%; 
   }
+
   .nogo:hover:first-child{
     padding: center;
-    padding-left: 4%;
-    font-size: 150%; 
-    line-height: 140%; 
+    padding-left: 4%; 
+    line-height: 100%; 
   }
 
   #lo:first-child{
     display: none; 
   }
+
+
+}
+
+@media screen and (max-width: 100000px) {
+  .nogo{
+    padding: center;
+    padding-left: 4%;
+    line-height: 100%; 
+     font-size: 240%;
+  }
+
 }
 
 @media screen and (max-width: 1000px) {
   #lo:first-child{
     display: none;
   }
+  .nogo{
+    padding: center;
+    padding-left: 4%;
+    line-height: 100%; 
+     font-size: 267%;
+  }
+
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 835px) {
   .navbut a{
     padding: 4px;
     font-size: 80%;
     width: 6%;
     margin-top: 20px;
   }
+
   .nogo{
-    font-weight: 500;
+    padding: center;
+    padding-left: 4%;
+    line-height: 100%; 
+    font-size: 200%;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .nogo{
+    padding: center;
+    padding-left: 4%;
+    line-height: 100%; 
+    font-size: 160%;
   }
 }
+
+@media screen and (max-width: 300px) {
+  .nogo{
+    font-size: 107%;
+    padding: center;
+    padding-left: 4%;
+    line-height: 100%; 
+  }
+}
+
 
 .op{
 display: none;
@@ -206,20 +248,21 @@ height: 45px;
   to {border-radius: 25px;}
 }
 
+
 #nogoid{
 
   padding: 13px 4%;
   float: left;
   
+
   font-family: OCR A; 
   text-decoration: none;
   color: #fffdfd;  
-  
-  font-size: 38px; 
+
   line-height: 40px; 
   border-radius: 10px;
   transition: 250ms ease-in-out;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 
@@ -230,7 +273,7 @@ height: 45px;
   font-family: OCR A; 
   text-decoration: none;
   color: #8b8b8ba8;  
-  font-size: 38px; 
+
   line-height: 40px; 
   border-radius: 10px;
 
