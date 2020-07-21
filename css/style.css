@@ -386,8 +386,8 @@ background-image: linear-gradient(to bottom right, rgb(2, 2, 2), rgb(22, 22, 22)
 }
 
 .ftext{
-color: rgba(190, 190, 190, 0.9);
+color: rgba(190, 190, 190, 0.7);
 font-size: 80%;
 margin-top: 7px;
-padding: 15px 0px 10px 0px;
+padding: 13px 0px 10px 0px;
 }
