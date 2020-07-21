@@ -85,7 +85,7 @@ display: none;
     
     align-items: center;
     padding: 0px 25px;
-    padding-top: 2.5%;
+    padding-top: 10px;
   }
   .op:first-child{
     background-color: rgba(17, 17, 17, 0.98);
