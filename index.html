@@ -14,7 +14,7 @@
   <div class="topnav" id="myTopnav">
       <div class="logo" id="logoid">
 
-        <img src="../jesvijonathan/res/img/logo.png" alt="jesvijonathan" id="lo">
+        <img src="../jesvijonathan/res/img/logo.png" alt="jesvijonathan" id="lo" class="log">
 
         <span class="nogo" id="nogoid"><a>JESVI JONATHAN</a></span>
       </div>
@@ -54,16 +54,23 @@
     function scrollFunction() {
       if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
         document.getElementById("myTopnav").style.padding = "0% 0% 0%";
-        document.getElementById("nogoid").style.fontSize = "35px";
-        document.getElementById("lo").style.display = "none";
+        
+        document.getElementById("nogoid").style.padding = "13px 2%";
+
+        document.getElementById("lo").style.opacity = "0";
+        document.getElementById("lo").style.width = "0px";
+        document.getElementById("lo").style.padding = "0px 0px 0px 0px";
       } else {
         document.getElementById("myTopnav").style.padding = "3% 0% 3%";
-        document.getElementById("nogoid").style.fontSize = "40px";
-        document.getElementById("lo").style.display = "block";
+        
+        document.getElementById("nogoid").style.padding = "13px 4%";
+
+        document.getElementById("lo").style.opacity = "1";
+        document.getElementById("lo").style.width = "90px";
+        document.getElementById("lo").style.padding = "0px 0px 0px 20px";
       }
     }
     </script>
-
 
 
 <script>

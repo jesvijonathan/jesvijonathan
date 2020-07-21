@@ -85,7 +85,7 @@ display: none;
     
     align-items: center;
     padding: 0px 25px;
-    padding-top: 1%
+    padding-top: 2%
   }
   .op:first-child{
     background-color: rgba(17, 17, 17, 0.98);
@@ -102,6 +102,28 @@ display: none;
     padding-left: 4%;
     font-size: 150%; 
     line-height: 140%; 
+  }
+
+  #lo:first-child{
+    display: none; 
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #lo:first-child{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .navbut a{
+    padding: 4px;
+    font-size: 80%;
+    width: 6%;
+    margin-top: 20px;
+  }
+  .nogo{
+    font-weight: 500;
   }
 }
 
@@ -151,6 +173,7 @@ height: 45px;
 /* Main Name Animation & Position*/
 
 #lo{
+  opacity:1;
   border-radius: 25px;
   padding: 0px 0px 0px 20px;
   float: left;
@@ -164,7 +187,7 @@ height: 45px;
 
 #lo:hover{
   border-radius: 20px;
-  padding: 0px 0px 0px 27px;
+  padding: 0px 0px 0px 29px;
  
   float: left;
   width: 90px;
@@ -192,7 +215,7 @@ height: 45px;
   text-decoration: none;
   color: #fffdfd;  
   
-  font-size: 35px; 
+  font-size: 38px; 
   line-height: 40px; 
   border-radius: 10px;
   transition: 250ms ease-in-out;
@@ -207,7 +230,7 @@ height: 45px;
   font-family: OCR A; 
   text-decoration: none;
   color: #8b8b8ba8;  
-  font-size: 35px; 
+  font-size: 38px; 
   line-height: 40px; 
   border-radius: 10px;
 
