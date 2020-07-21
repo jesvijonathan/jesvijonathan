@@ -136,7 +136,7 @@ display: none;
   .navbut a{
     padding: 4px;
     font-size: 80%;
-    width: 6%;
+    width: 7.5%;
     margin-top: 20px;
   }
 
@@ -172,7 +172,7 @@ display: none;
 display: none;
 float: right;
 height: 100%;
-color:rgba(255, 255, 255, 0.25);
+color:rgba(255, 255, 255, 0.35);
 transition: ease 0.5s;
 
 }
