@@ -4,6 +4,11 @@ body {
   background-color: rgba(255, 255, 255, 0.98);
 }
 
+@font-face {
+  font-family: "OCRA";
+  src: url("../res/font/OCRA.TTF") format("opentype");
+}
+
 .topnav {
   position: fixed;
   background-color: rgb(20, 20, 20);
@@ -254,7 +259,10 @@ transition: ease 0.5s;
   float: left;
   
 
-  font-family: OCR A; 
+  font-family: 'OCRA';
+  font-weight:normal;
+  font-style:normal;
+
   text-decoration: none;
   color: #fffdfd;  
 
