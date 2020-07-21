@@ -273,7 +273,7 @@ transition: ease 0.5s;
 }
 
 .line{
-  border-top: 5px solid rgba(61, 61, 61, 0.5);
+  border-top: 5px solid rgba(128, 128, 128, 0.301);
 }
 
 #nogoid:hover {
@@ -370,4 +370,22 @@ margin-left: 31%;
 @media screen and (max-height: 100%) {
   .sidenav {padding-top: 80px;}
   .sidenav a {font-size: 18px;}
+}
+
+.footer{
+
+  clear: both;
+height: 150px;
+width: 100%;
+text-align: center;
+margin: 0px 0px 0px 0px;
+font-family: arial, helvetica;
+font-weight: bold ;
+font-size: 11px;
+background-image: linear-gradient(to bottom right, rgb(2, 2, 2), rgb(22, 22, 22));
+}
+
+.ftext{
+color: rgba(190, 190, 190, 0.8);
+font-size: 80%;
 }
