@@ -272,12 +272,18 @@ transition: ease 0.5s;
   transition: 0.3s;
 }
 
+.line{
+  border-top: 5px solid rgba(61, 61, 61, 0.5);
+}
 
 #nogoid:hover {
   padding: 13px 4%;
   float: left;
 
-  font-family: OCR A; 
+  font-family: 'OCRA';
+  font-weight:normal;
+  font-style:normal;
+
   text-decoration: none;
   color: #8b8b8ba8;  
 
