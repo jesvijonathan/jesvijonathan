@@ -388,6 +388,80 @@ background-image: linear-gradient(to bottom right, rgb(2, 2, 2), rgb(22, 22, 22)
 .ftext{
 color: rgba(190, 190, 190, 0.7);
 font-size: 80%;
-margin-top: 7px;
+margin-top: 0.1%;
 padding: 13px 0px 10px 0px;
+}
+
+#ftext2{
+  margin-top: 0.4%;
+  padding-top: 12px;
+}
+
+.soc{
+  font-size: 2.8em; 
+  color: rgba(190, 190, 190, 0.8);
+  transition: 250ms;
+}
+
+.cop{
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  0% {
+    text-shadow: rgb(255, 255, 255);
+  }
+  100% {
+    text-shadow: 0 0 20px rgb(65, 65, 65), 0 0 30px #6e6e6e, 0 0 40px #777777, 0 0 50px #969696, 0 0 60px #b9b9b9, 0 0 70px #e0e0e0, 0 0 80px #ffffff;
+  }
+}
+
+.fa-instagram{
+  transition: 0.5s;
+  padding-right: 1%;
+}
+
+.fa-instagram:hover{
+  transition: 0.5s;
+  text-shadow: 0 0 20px rgb(136, 136, 136), 0 0 30px #a8a8a8, 0 0 40px #4d4d4d, 0 0 50px #202020, 0 0 60px #979697, 0 0 70px #000000, 0 0 80px #ff4da6;
+  }
+
+.fa-telegram-plane{
+  padding-right: 1%;
+    transition: 0.5s;
+}
+  
+.fa-telegram-plane:hover{
+    transition: 0.5s;
+    text-shadow: 0 0 20px rgb(136, 136, 136), 0 0 30px #a8a8a8, 0 0 40px #4d4d4d, 0 0 50px #202020, 0 0 60px #979697, 0 0 70px #000000, 0 0 80px #ff4da6;
+}
+
+.fa-youtube{
+  padding-right: 1%;
+  transition: 0.5s;
+}
+
+.fa-youtube:hover{
+  transition: 0.5s;
+  text-shadow: 0 0 20px rgb(136, 136, 136), 0 0 30px #a8a8a8, 0 0 40px #4d4d4d, 0 0 50px #202020, 0 0 60px #979697, 0 0 70px #000000, 0 0 80px #ff4da6;
+}
+
+.fa-envelope{
+  padding-right: 1%;
+  transition: 0.5s;
+}
+
+.fa-envelope:hover{
+  transition: 0.5s;
+  text-shadow: 0 0 20px rgb(136, 136, 136), 0 0 30px #a8a8a8, 0 0 40px #4d4d4d, 0 0 50px #202020, 0 0 60px #979697, 0 0 70px #000000, 0 0 80px #ff4da6;
+}
+
+.fa-github{
+  padding-right: 1%;
+  transition: 0.5s;
+}
+
+.fa-github:hover{
+  transition: 0.5s;
+  text-shadow: 0 0 20px rgb(136, 136, 136), 0 0 30px #a8a8a8, 0 0 40px #4d4d4d, 0 0 50px #202020, 0 0 60px #979697, 0 0 70px #000000, 0 0 80px #ff4da6;
 }
