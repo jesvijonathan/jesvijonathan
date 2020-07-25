@@ -401,7 +401,6 @@ padding: 13px 0px 10px 0px;
 
 .cop{
   transition: 0.3s;
-
 }
 
 .cop:hover{
@@ -423,7 +422,8 @@ padding: 13px 0px 10px 0px;
 .soc a{
   color: rgba(190, 190, 190, 0.8);
   transition: 0.3s;
-  padding-right: 1%;
+  margin-right: 6px;
+  margin-left: 6px;
   opacity: 0;
 }
 
