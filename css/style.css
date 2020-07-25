@@ -41,7 +41,6 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.05);
 
   margin-right: 20px;
-  
 
   transition: 250ms;
   border-radius: 15px;
@@ -54,7 +53,6 @@ body {
 }
 
 .navbut a.active {
-
   background-color: #ffffff;
   color: rgb(0, 0, 0);
 }
@@ -112,7 +110,6 @@ display: none;
     display: none; 
   }
 
-
 }
 
 @media screen and (max-width: 100000px) {
@@ -161,6 +158,7 @@ display: none;
     line-height: 100%; 
     font-size: 160%;
   }
+  
 }
 
 @media screen and (max-width: 300px) {
@@ -258,7 +256,6 @@ transition: ease 0.5s;
   padding: 13px 4%;
   float: left;
   
-
   font-family: 'OCRA';
   font-weight:normal;
   font-style:normal;
@@ -388,7 +385,7 @@ background-image: linear-gradient(to bottom right, rgb(2, 2, 2), rgb(22, 22, 22)
 .ftext{
 color: rgba(190, 190, 190, 0.7);
 font-size: 80%;
-margin-top: 0.1%;
+margin-top: 1.0%;
 padding: 13px 0px 10px 0px;
 }
 
@@ -399,69 +396,48 @@ padding: 13px 0px 10px 0px;
 
 .soc{
   font-size: 2.8em; 
-  color: rgba(190, 190, 190, 0.8);
   transition: 250ms;
 }
 
 .cop{
-  animation: glow 1s ease-in-out infinite alternate;
+  transition: 0.3s;
+
+}
+
+.cop:hover{
+  transition: 0.3s;
+  animation: 0.7s glitch ease-in-out infinite alternate;
 }
 
 @keyframes glow {
   0% {
-    text-shadow: rgb(255, 255, 255);
+    text-shadow: rgba(255, 255, 255, 0);
   }
   100% {
-    text-shadow: 0 0 20px rgb(65, 65, 65), 0 0 30px #6e6e6e, 0 0 40px #777777, 0 0 50px #969696, 0 0 60px #b9b9b9, 0 0 70px #e0e0e0, 0 0 80px #ffffff;
-  }
+    text-shadow: rgba(255, 255, 255, 0.432);
+    text-shadow:
+      0 0 1px #fff;
+}
 }
 
-.fa-instagram{
-  transition: 0.5s;
+.soc a{
+  color: rgba(190, 190, 190, 0.8);
+  transition: 0.3s;
   padding-right: 1%;
+  opacity: 0;
 }
 
-.fa-instagram:hover{
-  transition: 0.5s;
-  text-shadow: 0 0 20px rgb(136, 136, 136), 0 0 30px #a8a8a8, 0 0 40px #4d4d4d, 0 0 50px #202020, 0 0 60px #979697, 0 0 70px #000000, 0 0 80px #ff4da6;
-  }
-
-.fa-telegram-plane{
-  padding-right: 1%;
-    transition: 0.5s;
-}
+.soc a:hover{
   
-.fa-telegram-plane:hover{
-    transition: 0.5s;
-    text-shadow: 0 0 20px rgb(136, 136, 136), 0 0 30px #a8a8a8, 0 0 40px #4d4d4d, 0 0 50px #202020, 0 0 60px #979697, 0 0 70px #000000, 0 0 80px #ff4da6;
-}
-
-.fa-youtube{
-  padding-right: 1%;
-  transition: 0.5s;
-}
-
-.fa-youtube:hover{
-  transition: 0.5s;
+  transition: 0.4s;
   text-shadow: 0 0 20px rgb(136, 136, 136), 0 0 30px #a8a8a8, 0 0 40px #4d4d4d, 0 0 50px #202020, 0 0 60px #979697, 0 0 70px #000000, 0 0 80px #ff4da6;
-}
+  }
 
-.fa-envelope{
-  padding-right: 1%;
-  transition: 0.5s;
-}
+  .soc a:not(:active){
+    opacity: 1;
+  }
 
-.fa-envelope:hover{
-  transition: 0.5s;
-  text-shadow: 0 0 20px rgb(136, 136, 136), 0 0 30px #a8a8a8, 0 0 40px #4d4d4d, 0 0 50px #202020, 0 0 60px #979697, 0 0 70px #000000, 0 0 80px #ff4da6;
-}
-
-.fa-github{
-  padding-right: 1%;
-  transition: 0.5s;
-}
-
-.fa-github:hover{
-  transition: 0.5s;
-  text-shadow: 0 0 20px rgb(136, 136, 136), 0 0 30px #a8a8a8, 0 0 40px #4d4d4d, 0 0 50px #202020, 0 0 60px #979697, 0 0 70px #000000, 0 0 80px #ff4da6;
-}
+  @keyframes glitch{
+  0%{opacity: 1;}
+100%{opacity: 0.1;}
+  }
