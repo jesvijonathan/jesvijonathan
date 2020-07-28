@@ -450,9 +450,15 @@ padding: 13px 0px 10px 0px;
   height: calc(100vh - 14em);
 }
 
+.s2{
+  background-color: rgb(34, 34, 34);
+  padding: 7em;
+  height: calc(100vh - 14em);
+}
+
 .img1{
   height: calc(100vh - 14em);
-  filter: brightness(50%);
+  filter: brightness(55%);
   
   position: fixed;
 
