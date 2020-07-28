@@ -458,7 +458,7 @@ padding: 13px 0px 10px 0px;
 
 .img1{
   height: calc(100vh - 14em);
-  filter: brightness(55%);
+  filter: brightness(50%);
   
   position: fixed;
 
