@@ -30,13 +30,13 @@ body {
   color: #fff;
   padding: 13px 4%;
   float: left;
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .topicon {
   float: right;
-  padding: 18px 2%;
-  transform: scale(0.67);
+  padding: 14px 2%;
+  transform: scale(0.6);
   height: 0px;
 }
 
