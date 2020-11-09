@@ -1,119 +1,55 @@
 <!DOCTYPE html>
 
 <html>
+  <meta charset="UTF-8" />
+  <meta name="keywords" content="Website" />
+  <meta name="description" content="Mockup Web Page" />
+  <meta name="author" content="Jesvi" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="Name" content="Jesvi Jonathan" />
 
- <meta charset="UTF-8">
- <meta name="keywords" content="Website">
- <meta name="description" content="Mockup Web Page">
- <meta name="author" content="Jesvi">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <meta name="Name" content="Jesvi Jonathan">
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="../jesvijonathan/res/icon/css/all.css" rel="stylesheet" />
 
+  <title>Jesvi Jonathan</title>
 
-  <link rel="stylesheet" href="css/style.css">
-  <link href="../jesvijonathan/res/icon/css/all.css" rel="stylesheet">
-
-
-  <div class="topnav" id="myTopnav">
-      <div class="logo" id="logoid">
-
-        <img src="../jesvijonathan/res/img/logo.png" alt="jesvijonathan" id="lo" class="log">
-
-        <span class="nogo" id="nogoid"><a>JESVI JONATHAN</a></span>
-      </div>
-
-      <span style="font-size:30px;cursor:pointer" class="op" onclick="openNav()" tabindex="1">&#9776;</span>
-    
-      <div class="navbut" id="navbutid">
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-        <a href="#news">News</a>
-        <a href="#home" class="active">Home</a>
+  <div class="topnav">
+    <div class="topname">Jesvi Jonathan</div>
+    <div class="topicon">
+      <img
+        src="../jesvijonathan/res/img/Picture1.png"
+        alt="jesvijonathan"
+        id="lo"
+        class="logo"
+      />
     </div>
+    <!--span class="nogo" id="nogoid"><a>JESVI JONATHAN</a></span-->
   </div>
 
-<section>
-
-  <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="#" class="sia">Home</a>
-    <a href="#" class="si">News</a>
-    <a href="#" class="si">Contact</a>
-    <a href="#" class="si">About</a>
-  </div>
-
-  <section class="s1">
-<img src="../jesvijonathan/res/img/pro.jpg" class="img1">
-
-
-</section>
-
-<section class="s2">
-  
+  <section class="section1">
+    <img src="../jesvijonathan/res/img/pro2.jpg" class="bgphoto" />
   </section>
-  
-  <div class="footer">
 
-<div class="line"></div>
+  <section class="section2"></section>
 
-<section>
-  
-  <div class="ftext" id="ftext1">Hosted On 2020 As Github Master Branch  |  Main & Official Website  |  Source Code Archived In Main Repositer  |  Kanging Not Allowed
-  <br><br>
-  </div>
+  <div class="line"></div>
 
+  <section class="section3">
+    <div class="ftext" id="ftext1">
+      <br />
+      Hosted On 2020 | Main & Official Website | 9 November 2020 | v0.1
+      <br /><br />
+    </div>
     <div class="soc">
+      <br />
       <a href="#enstagram"><i class="fab fa-instagram"></i></a>
       <a href="#telegram"><i class="fab fa-telegram-plane"></i></a>
       <a href="#youtube"><i class="fab fa-youtube"></i></a>
       <a href="#email"><i class="far fa-envelope"></i></a>
       <a href="#github"><i class="fab fa-github"></i></a>
+      <br /><br /><br />
     </div>
 
-    
-    <div class="ftext" id="ftext2">
-      
     <div class="cop">Jesvi Jonathan ©</div>
-    </div>
-
-</section>
-
-  </div>
-
-  <script>
-    // When the user scrolls down 50px from the top of the document, resize the header's font size
-    window.onscroll = function() {scrollFunction()};
-    
-    function scrollFunction() {
-      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-        document.getElementById("myTopnav").style.padding = "0% 0% 0%";
-        
-        document.getElementById("nogoid").style.padding = "13px 2%";
-
-        document.getElementById("lo").style.opacity = "0";
-        document.getElementById("lo").style.width = "0px";
-        document.getElementById("lo").style.padding = "0px 0px 0px 0px";
-        document.getElementById("navbutid").style.fontSize = "15px";
-      } else {
-        document.getElementById("myTopnav").style.padding = "3% 0% 3%";
-        
-        document.getElementById("nogoid").style.padding = "13px 4%";
-
-        document.getElementById("lo").style.opacity = "1";
-        document.getElementById("lo").style.width = "90px";
-        document.getElementById("lo").style.padding = "0px 0px 0px 20px";
-        document.getElementById("navbutid").style.fontSize = "18px";
-      }
-    }
-    </script>
-
-
-<script>
-  function openNav() {
-    document.getElementById("mySidenav").style.width = "100%";
-  }
-  
-  function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-  }
-  </script>
+  </section>
+</html>
