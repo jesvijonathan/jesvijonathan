@@ -35,9 +35,8 @@ body {
 
 .topicon {
   float: right;
-  padding: 1%;
-  transform: scale(0.6);
-  width: 117px;
+  padding: 13px 2%;
+  transform: scale(0.8);
   height: 0px;
 }
 
