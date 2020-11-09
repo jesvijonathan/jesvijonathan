@@ -1,0 +1,31 @@
+
+Display Devices: size=1
+  DisplayDeviceInfo{"Built-in Screen": uniqueId="local:21442653864348033", 1440 x 3200, modeId 1, defaultModeId 1, supportedModes [{id=1, width=1440, height=3200, fps=60.000004}, {id=2, width=1440, height=3200, fps=48.000004}, {id=3, width=1080, height=2400, fps=120.00001}, {id=4, width=1080, height=2400, fps=96.00001}, {id=5, width=1080, height=2400, fps=60.000004}, {id=6, width=1080, height=2400, fps=48.000004}, {id=7, width=720, height=1600, fps=120.00001}, {id=8, width=720, height=1600, fps=96.00001}, {id=9, width=720, height=1600, fps=60.000004}, {id=10, width=720, height=1600, fps=48.000004}], refreshRateMode REFRESH_RATE_MODE_ALWAYS, realModeId 3, colorMode 0, supportedColorModes [0, 7, 9], HdrCapabilities HdrCapabilities{mSupportedHdrTypes=[2, 3], mMaxLuminance=400.0, mMaxAverageLuminance=120.0, mMinLuminance=5.0E-4}, allmSupported false, gameContentTypeSupported false, density 640, 571.5 x 564.444 dpi, appVsyncOff 0, presDeadline 17666666, cutout DisplayCutout{insets=Rect(0, 104 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(680, 0 - 760, 104), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]}}, touch INTERNAL, rotation 0, type INTERNAL, address {port=129, model=0x4c2dfae6a049}, deviceProductInfo DeviceProductInfo{name=samsung lcd  , manufacturerPnpId=SAM, productId=0, modelYear=null, manufactureDate=ManufactureDate{week=16, year=2020}, relativeAddress=null}, state ON, FLAG_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}
+    mAdapter=LocalDisplayAdapter
+
+mDisplayInfo=DisplayInfo{isInternal=true, density=4.0, secure=true, deviceProductInfo=DeviceProductInfo{name=samsung lcd  , manufacturerPnpId=SAM, productId=0, modelYear=null, manufactureDate=ManufactureDate{week=16, year=2020}, relativeAddress=null}}
+    mDisplayConfigs=
+      DisplayConfig{width=1440, height=3200, xDpi=571.5, yDpi=564.444, refreshRate=60.000004, appVsyncOffsetNanos=0, presentationDeadlineNanos=17666666, configGroup=0}
+      DisplayConfig{width=1440, height=3200, xDpi=571.5, yDpi=564.444, refreshRate=48.000004, appVsyncOffsetNanos=0, presentationDeadlineNanos=21833333, configGroup=0}
+      DisplayConfig{width=1080, height=2400, xDpi=428.625, yDpi=423.333, refreshRate=120.00001, appVsyncOffsetNanos=0, presentationDeadlineNanos=9333333, configGroup=0}
+      DisplayConfig{width=1080, height=2400, xDpi=428.625, yDpi=423.333, refreshRate=96.00001, appVsyncOffsetNanos=0, presentationDeadlineNanos=11416666, configGroup=0}
+      DisplayConfig{width=1080, height=2400, xDpi=428.625, yDpi=423.333, refreshRate=60.000004, appVsyncOffsetNanos=0, presentationDeadlineNanos=17666666, configGroup=0}
+      DisplayConfig{width=1080, height=2400, xDpi=428.625, yDpi=423.333, refreshRate=48.000004, appVsyncOffsetNanos=0, presentationDeadlineNanos=21833333, configGroup=0}
+      DisplayConfig{width=720, height=1600, xDpi=285.75, yDpi=282.222, refreshRate=120.00001, appVsyncOffsetNanos=0, presentationDeadlineNanos=9333333, configGroup=0}
+      DisplayConfig{width=720, height=1600, xDpi=285.75, yDpi=282.222, refreshRate=96.00001, appVsyncOffsetNanos=0, presentationDeadlineNanos=11416666, configGroup=0}
+      DisplayConfig{width=720, height=1600, xDpi=285.75, yDpi=282.222, refreshRate=60.000004, appVsyncOffsetNanos=0, presentationDeadlineNanos=17666666, configGroup=0}
+      DisplayConfig{width=720, height=1600, xDpi=285.75, yDpi=282.222, refreshRate=48.000004, appVsyncOffsetNanos=0, presentationDeadlineNanos=21833333, configGroup=0}
+    mSupportedModes=
+      DisplayModeRecord{mMode={id=1, width=1440, height=3200, fps=60.000004}}
+      DisplayModeRecord{mMode={id=2, width=1440, height=3200, fps=48.000004}}
+      DisplayModeRecord{mMode={id=3, width=1080, height=2400, fps=120.00001}}
+      DisplayModeRecord{mMode={id=4, width=1080, height=2400, fps=96.00001}}
+      DisplayModeRecord{mMode={id=5, width=1080, height=2400, fps=60.000004}}
+      DisplayModeRecord{mMode={id=6, width=1080, height=2400, fps=48.000004}}
+      DisplayModeRecord{mMode={id=7, width=720, height=1600, fps=120.00001}}
+      DisplayModeRecord{mMode={id=8, width=720, height=1600, fps=96.00001}}
+      DisplayModeRecord{mMode={id=9, width=720, height=1600, fps=60.000004}}
+      DisplayModeRecord{mMode={id=10, width=720, height=1600, fps=48.000004}}
+    mSupportedColorModes=[0, 7, 9]mActiveRealPhysIndex=2
+    mActiveRealModeId=3
+    mRefreshRateMode=REFRESH_RATE_MODE_ALWAYS
