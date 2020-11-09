@@ -41,14 +41,13 @@ body {
 }
 
 .bgphoto {
-  height: calc(100vh - 14em);
   filter: brightness(30%);
 
   position: fixed;
 
   z-index: -1;
-  top: 0;
-  left: 0;
+  top: 0%;
+  left: 0%;
 
   height: 100%;
   width: 100%;
