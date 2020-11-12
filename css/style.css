@@ -4,7 +4,7 @@ body {
   overflow-x: hidden;
 
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #414141;
+  background-color: rgb(34, 34, 34);
 }
 
 @font-face {
@@ -41,9 +41,13 @@ body {
 }
 
 .section1 {
-  background-color: rgba(82, 82, 82, 0.9);
   padding: 7em;
   height: calc(100vh - 14em);
+  width: 100%;
+  background-image: url("../res/img/pro.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .section2 {
@@ -66,7 +70,7 @@ body {
 
 .section3 {
   background-color: #252525d2;
-  color: rgba(209, 209, 209, 0.3);
+  color: rgba(209, 209, 209, 0.4);
   clear: both;
   height: 135px;
   width: 100%;
@@ -77,5 +81,5 @@ body {
 }
 
 .cop {
-  color: rgb(78, 78, 78);
+  color: rgba(209, 209, 209, 0.4);
 }
