@@ -4,7 +4,7 @@ body {
   overflow-x: hidden;
 
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(0, 0, 0);
+  background-color: #252525;
 }
 
 @font-face {
@@ -19,7 +19,7 @@ body {
 
 .topnav {
   position: fixed;
-  background-color: #000000d2;
+  background-color: #252525e0;
   width: 100%;
 }
 
@@ -48,7 +48,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 50%;
+  z-index: -1;
+  opacity: 30%;
 }
 
 .section2 {
