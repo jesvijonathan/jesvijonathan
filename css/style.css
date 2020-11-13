@@ -4,7 +4,7 @@ body {
   overflow-x: hidden;
 
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(34, 34, 34);
+  background-color: rgb(0, 0, 0);
 }
 
 @font-face {
@@ -48,6 +48,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  opacity: 30%;
 }
 
 .section2 {
