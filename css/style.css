@@ -43,7 +43,7 @@ body {
 .section1 {
   padding: 7em;
   height: calc(100vh - 14em);
-  width: 100%;
+  width: auto;
   background-image: url("../res/img/pro.jpg");
   background-size: cover;
   background-repeat: no-repeat;
