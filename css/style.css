@@ -57,14 +57,14 @@ body {
 }
 
 .section1 h {
-  margin-top: 80px;
+  padding: 2% 0% 0% 0%;
   float: left;
   font-size: 30px;
   font-weight: 700;
   margin-left: 25%;
 }
 .section1 p {
-  margin-top: 80px;
+  padding: 2% 0% 0% 0%;
   margin-left: 25%;
   font-size: 14px;
 }
