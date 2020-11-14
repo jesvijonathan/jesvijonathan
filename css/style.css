@@ -55,7 +55,7 @@ body {
 .headlinet {
   font-size: 38px;
   font-weight: 800;
-  padding: 70px 0% 0px 10%;
+  padding: 7% 0% 7px 10%;
 }
 
 .welcomet {
@@ -68,10 +68,14 @@ body {
   padding-top: 10%;
 }
 
+.button {
+  margin-top: 60px;
+}
+
 .button a {
   text-decoration: none;
   padding: 12px 21px;
-
+  margin-top: 10px;
   float: right;
   background-color: rgba(0, 0, 0, 0.137);
   border: 2px solid rgba(255, 255, 255, 0.37);
