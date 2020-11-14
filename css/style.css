@@ -52,20 +52,7 @@ body {
   color: rgb(255, 255, 255);
 }
 
-.headlinet {
-  font-size: 38px;
-  font-weight: 800;
-  padding: 7% 0% 7px 7%;
-}
-
-.welcomet {
-  font-size: 14px;
-  font-weight: 500;
-  padding-left: 7%;
-}
-
 .button {
-  margin-top: 77px;
   padding: 10% 25%;
 }
 
@@ -79,6 +66,7 @@ body {
 .section1 p {
   margin-top: 80px;
   margin-left: 25%;
+  font-size: 14px;
 }
 
 .button a {
@@ -86,7 +74,7 @@ body {
   border: 2px solid rgba(255, 255, 255, 0.37);
   border-radius: 10%;
 
-  padding: 10px;
+  padding: 9.3px;
   text-align: center;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.8);
