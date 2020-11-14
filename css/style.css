@@ -41,7 +41,7 @@ body {
 }
 
 .section1 {
-  padding: 7em;
+  padding: 7em 0em 7em 0em;
   height: calc(100vh - 14em);
   width: auto;
   background-image: url("../res/img/pro.jpg");
@@ -55,39 +55,43 @@ body {
 .headlinet {
   font-size: 38px;
   font-weight: 800;
-  padding: 7% 0% 7px 10%;
+  padding: 7% 0% 7px 7%;
 }
 
 .welcomet {
   font-size: 14px;
   font-weight: 500;
-  padding-left: 10%;
+  padding-left: 7%;
 }
 
 .button {
-  padding-top: 10%;
+  margin-top: 70px;
+  padding: 24%;
 }
 
-.button {
-  margin-top: 60px;
+.section1 h {
+  margin-top: 80px;
+  float: left;
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 25%;
+}
+.section1 p {
+  margin-top: 80px;
+  margin-left: 25%;
 }
 
 .button a {
-  text-decoration: none;
-  padding: 12px 21px;
-  margin-top: 10px;
-  float: right;
   background-color: rgba(0, 0, 0, 0.137);
   border: 2px solid rgba(255, 255, 255, 0.37);
   border-radius: 10%;
-  font-size: 24px;
-  font-weight: 700;
+
+  padding: 10px;
+  text-align: center;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.8);
-}
-
-.qw {
-  margin-left: 25px;
+  font-size: 120%;
+  font-weight: 700;
 }
 
 .section2 {
