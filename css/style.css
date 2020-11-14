@@ -19,7 +19,7 @@ body {
 
 .topnav {
   position: fixed;
-  background-color: #252525d2;
+  background-color: #252525dc;
   width: 100%;
 }
 
@@ -99,6 +99,18 @@ body {
   background-color: rgb(34, 34, 34);
   padding: 7em;
   height: calc(100vh - 14em);
+}
+
+.cen {
+  font-family: "OCRAq";
+  margin: auto;
+  margin-top: 20%;
+  width: 100%;
+  text-align: center;
+  font-size: 200%;
+  font-weight: 800;
+
+  color: rgba(255, 255, 255, 0.774);
 }
 
 .line {
