@@ -825,12 +825,12 @@ select {
 .bgg1 {
   background-image: url("../res/img/pro3.jpg");
   position: absolute;
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
   margin-top: -112px;
   z-index: -3;
   opacity: 25%;
-  height: 166.5%;
+  height: 1110px;
   width: 98.8%;
 }
 
