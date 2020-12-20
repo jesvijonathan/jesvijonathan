@@ -9,8 +9,6 @@ body {
   cursor: url("../res/img/poin.png"), auto;
   width: 1366px; /* The width is fixed by pixels */
   height: 768px;
-  width: 1366px; /* The width is fixed by pixels */
-  height: 768px;
 }
 
 @font-face {
