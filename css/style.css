@@ -91,11 +91,9 @@ body {
   height: 100%;
   width: 100%;
   position: absolute;
-  /*
   background-image: url("../res/img/pro.jpg");
   background-size: cover;
   background-attachment: fixed;
-  */
   left: 0px;
   top: 0px;
   z-index: -1;
