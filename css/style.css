@@ -7,9 +7,10 @@ body {
   background-color: #252525;
   scroll-behavior: smooth;
   cursor: url("../res/img/poin.png"), auto;
-
-  width: 1366px; /* The width is fixed by pixels */
-  height: 768px;
+  min-width: 1366px; /* The width is fixed by pixels */
+  min-height: 768px;
+  max-width: 1366px; /* The width is fixed by pixels */
+  max-height: 768px;
 }
 
 @font-face {

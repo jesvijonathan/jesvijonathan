@@ -1,0 +1,87 @@
+[33me87ccb8[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m HEAD@{0}: checkout: moving from remake to master
+[33m6ba2ce6[m[33m ([m[1;32mremake[m[33m)[m HEAD@{1}: commit: xxx
+[33m5e24d9c[m HEAD@{2}: commit: v0.3 all new rebase
+[33m9789134[m[33m ([m[1;31morigin/remake[m[33m)[m HEAD@{3}: commit: e
+[33m0b1a8a8[m HEAD@{4}: commit: d
+[33mf565036[m HEAD@{5}: commit: fone
+[33m34a65ec[m HEAD@{6}: commit: simpke
+[33m055119e[m HEAD@{7}: commit: jj
+[33m4a22aed[m HEAD@{8}: commit: ss
+[33m61bec8a[m HEAD@{9}: commit: s
+[33m065a1bd[m HEAD@{10}: commit: ss
+[33mf6dd314[m HEAD@{11}: commit: dd
+[33mef28d56[m HEAD@{12}: commit: kjhk
+[33m2930fea[m HEAD@{13}: commit: hhh
+[33m887b1c5[m HEAD@{14}: commit: centered but
+[33m060bfc4[m HEAD@{15}: commit: ggbutton
+[33me90d523[m HEAD@{16}: commit: l
+[33m592ec77[m HEAD@{17}: commit: s
+[33me66c883[m HEAD@{18}: commit: m
+[33mc42734d[m HEAD@{19}: commit: mmm
+[33ma671f38[m HEAD@{20}: commit: mm
+[33me5012c6[m HEAD@{21}: commit: mmm
+[33meddfe8e[m HEAD@{22}: commit: new
+[33m5717358[m HEAD@{23}: commit: bg removed
+[33mac2b4f3[m HEAD@{24}: commit: bg
+[33mc490e5c[m HEAD@{25}: commit: resize
+[33m5c69a24[m HEAD@{26}: commit: jhj
+[33m036cc9a[m HEAD@{27}: commit: resize
+[33m3cd323e[m HEAD@{28}: commit: resize
+[33m9f1229e[m HEAD@{29}: commit: resize logo
+[33m3fb05a8[m HEAD@{30}: commit: logo resized
+[33mf12e74a[m HEAD@{31}: merge origin/master: Merge made by the 'recursive' strategy.
+[33mb6101ec[m HEAD@{32}: commit: foot layout done
+[33m9755b8d[m HEAD@{33}: commit: website v2 header partial design
+[33me87ccb8[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m HEAD@{34}: checkout: moving from master to remake
+[33me87ccb8[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m HEAD@{35}: commit: v2
+[33m1605292[m HEAD@{36}: commit: added dark section 2 layout
+[33m9843c74[m HEAD@{37}: commit: new
+[33ma73d89c[m HEAD@{38}: commit: added main screen background
+[33md11fd73[m HEAD@{39}: commit: center soc icon
+[33ma52838b[m HEAD@{40}: commit: phone load
+[33m0e02c6a[m HEAD@{41}: commit: icon
+[33m302bbaa[m HEAD@{42}: commit: v2
+[33m71d2a10[m HEAD@{43}: commit: footer text
+[33m7b159d6[m HEAD@{44}: commit: Footer
+[33mfff72f2[m HEAD@{45}: commit: v2 font
+[33m0289854[m HEAD@{46}: commit: font fix, name logo
+[33m8d710f9[m HEAD@{47}: commit: hambuger up
+[33m95d9844[m HEAD@{48}: commit: 16:9 width bar fixed
+[33m4f56a24[m HEAD@{49}: commit: Color Fix
+[33m93b145d[m HEAD@{50}: commit: v2.5
+[33m8180ab8[m HEAD@{51}: commit: v2 all devices scalnig
+[33m0ef8f9d[m HEAD@{52}: commit: Done With The Header (All Devices), Fixed Scalling v2
+[33m71861cb[m HEAD@{53}: commit: m
+[33m7d2a631[m HEAD@{54}: commit: Added Logo
+[33m43e66b0[m HEAD@{55}: commit: Phone v2 Nav Side
+[33m876d31d[m HEAD@{56}: reset: moving to HEAD
+[33m876d31d[m HEAD@{57}: commit: again
+[33mf39a12f[m HEAD@{58}: reset: moving to HEAD
+[33mf39a12f[m HEAD@{59}: commit: phone moed
+[33m66de1e2[m HEAD@{60}: commit: Aded glow to butt
+[33m33d0e66[m HEAD@{61}: commit: same
+[33m5778b48[m HEAD@{62}: commit: tweaked the animatino (overall) navbar and side bar
+[33m20c4a4e[m HEAD@{63}: commit: just leave
+[33mf28d1fd[m HEAD@{64}: commit: v4.5.9
+[33m05242e7[m HEAD@{65}: commit: v4.5.8
+[33m41e993a[m HEAD@{66}: commit: v4.5.7
+[33m21838ed[m HEAD@{67}: commit: v4.6.3
+[33m0616fa2[m HEAD@{68}: commit: v4.6
+[33m67e0a1a[m HEAD@{69}: commit: v4.5.2
+[33m5d8814b[m HEAD@{70}: commit: v4.5
+[33m9c0f703[m HEAD@{71}: commit: v4.5 side bar monile ver
+[33mffa8f2c[m HEAD@{72}: commit: v43
+[33m2c44a22[m HEAD@{73}: commit: v4.2
+[33m168e583[m HEAD@{74}: commit: v3 side
+[33mfb7798b[m HEAD@{75}: commit: v2 side nav
+[33m61c1bf6[m HEAD@{76}: commit: Border To Side Panel
+[33m0872534[m HEAD@{77}: commit: added new stuff to side panel
+[33m524f862[m HEAD@{78}: commit: v4.3
+[33m07e9767[m HEAD@{79}: commit: v4.2
+[33m4ad2f8c[m HEAD@{80}: commit: phone scale hamburger menu
+[33m74106c0[m HEAD@{81}: commit: v4 almost ready nav bar
+[33mc9fd7e8[m HEAD@{82}: commit: v3
+[33mebfafd6[m HEAD@{83}: commit: Added Side Bar/Menu & Fixed Content Scaling v2
+[33m24621eb[m HEAD@{84}: commit: Fixed Alignment and resize
+[33mb974843[m HEAD@{85}: commit: Update style.css
+[33m292f810[m HEAD@{86}: commit (initial): Nav Bar v1
