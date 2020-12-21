@@ -367,7 +367,7 @@
   <form action="/action_page.php" class="formc">
 
     <label for="fname">Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your Name.. *Optional" class="tbox">
+    <input type="text" id="fname1" name="firstname" placeholder="Your Name.. *Optional" class="tbox">
     <br>
 
     <label for="ename">Email (or) Phone Number</label>
@@ -375,7 +375,7 @@
 <br>
     <label for="lname">Feedback</label>
     <textarea type="text" rows="7" cols="16" id="lname" name="lastname" placeholder="Write Down Your feedback.." class="tbox"></textarea> 
-    <input type="submit" value="Submit" class="buttonc">
+    <input onclick="rev()" type="submit" id="subb" class="buttonc">
 
   </form>
   
@@ -561,5 +561,9 @@ const title = document.querySelector(".card__title");
     title.textContent = 'Title'; 
     description.textContent = 'This is the description.'; 
     image.innerHTML = `<img src="${image-source}`; 
+
+  function rev(){
+    alert("Thank you " + document.getElementById("fname1").value + " for your feedback !\n\n"+"Unfortunately the server is down at the moment,\nPlease try again later..");
+  }
 
 </script>
