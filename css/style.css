@@ -241,12 +241,12 @@ body {
 .cen {
   font-family: "OCRAq";
   margin: auto;
-  margin-top: 16%;
+  margin-top: 10%;
   width: 100%;
   text-align: center;
   font-size: 180%;
   font-weight: 800;
-  padding-top: 170px;
+  padding-top: 130px;
 
   color: rgba(255, 255, 255, 0.774);
 }
@@ -620,7 +620,7 @@ body {
 }
 
 .section4 {
-  padding: 8em 0em 0em 0em;
+  padding: 8em 0em 10em 0em;
   height: 300px;
   width: auto;
   margin-left: 0.5%;
