@@ -79,7 +79,7 @@ body {
 
 .section1 {
   padding: 7em 0em 7em 0em;
-  height: calc(100vh - 14em);
+  height: 444px;
   width: auto;
   margin-left: 0.5%;
   margin-right: 0.5%;
@@ -620,8 +620,8 @@ body {
 }
 
 .section4 {
-  padding: 9em 0em 0em 0em;
-  height: calc(100vh - 14em - 100px);
+  padding: 8em 0em 0em 0em;
+  height: 300px;
   width: auto;
   margin-left: 0.5%;
   margin-right: 0.5%;
