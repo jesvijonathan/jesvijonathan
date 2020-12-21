@@ -79,7 +79,7 @@ body {
 
 .section1 {
   padding: 7em 0em 0em 0em;
-  height: 410px;
+  height: 523px;
   width: auto;
   margin-left: 0.5%;
   margin-right: 0.5%;
@@ -246,7 +246,7 @@ body {
   text-align: center;
   font-size: 180%;
   font-weight: 800;
-  padding-top: 100px;
+  padding-top: 130px;
 
   color: rgba(255, 255, 255, 0.774);
 }
