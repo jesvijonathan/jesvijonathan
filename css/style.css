@@ -235,13 +235,13 @@ body {
 
 .section2 {
   background-color: rgb(34, 34, 34);
-  height: 400px;
+  height: 300px;
 }
 
 .cen {
   font-family: "OCRAq";
   margin: auto;
-  margin-top: 20%;
+  margin-top: 16%;
   width: 100%;
   text-align: center;
   font-size: 180%;
