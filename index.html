@@ -296,6 +296,47 @@
 
       </section>
 
+
+<section class="section6" id="sec6">
+<div class="K1">Blog</div>
+<div class="bor">
+<div class="bumbd">
+<a class="dumb" id="aa">All</a>
+<a class="dumb">Music</a>
+<a class="dumb">Software</a>
+<a class="dumb">Other</a>
+</div>
+<div class="inse"></div>
+<div class="loader">Loading...</div>
+<div class="down">Looks like the server is down :(</div>
+<div class="qwe">
+<div class="card"> 
+        <div class="card__image loading"></div> 
+        <div class="card__title loading"></div> 
+        <div class="card__description loading"></div> 
+        <div class="card__description loading"></div> 
+    </div> 
+<div class="card" id="asd"> 
+        <div class="card__image loading"></div> 
+        <div class="card__title loading"></div> 
+        <div class="card__description loading"></div> 
+        <div class="card__description loading"></div> 
+    </div> 
+<div class="card" id="asd1"> 
+        <div class="card__image loading"></div> 
+        <div class="card__title loading"></div> 
+        <div class="card__description loading"></div> 
+        <div class="card__description loading"></div> 
+    </div> 
+    
+</div>
+
+
+</div>
+
+
+</section>
+
       <section class="section4" id="sec4">
 
   <div class="tebo">
@@ -494,4 +535,19 @@ function showSlides2(n) {
   slides[slideIndex2-1].style.display = "block";  
   dots[slideIndex12-1].className += " active";
 }
+
+const title = document.querySelector(".card__title"); 
+    const description = document.querySelector(".card__description"); 
+    const image = document.querySelector(".card__image"); 
+      
+    // Remove the 'loading' class 
+    title.classList.remove("loading"); 
+    description.classList.remove("loading"); 
+    image.classList.remove("loading"); 
+      
+    // Add the content 
+    title.textContent = 'Title'; 
+    description.textContent = 'This is the description.'; 
+    image.innerHTML = `<img src="${image-source}`; 
+
 </script>

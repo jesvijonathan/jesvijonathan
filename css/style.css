@@ -1161,3 +1161,316 @@ select {
   margin-top: 790px;
   margin-left: -320px;
 }
+
+.section6 {
+  height: 700px;
+  background-color: #585858;
+  color: #f2f2f2;
+  font-family: "OCRAq";
+}
+
+.K1 {
+  margin-left: -2%;
+  -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(7px);
+  text-align: center;
+  padding: 12px;
+  height: 40px;
+
+  display: block;
+  z-index: 1;
+  position: absolute;
+  font-size: 35px;
+  font-weight: 500;
+  font-family: "OCRAq";
+  margin-top: 0%;
+  width: 230px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-left: 40.4%;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.17);
+  border-left: 2px solid rgba(255, 255, 255, 0.17);
+  border-right: 2px solid rgba(255, 255, 255, 0.17);
+}
+
+.bor {
+  width: 88%;
+  border: 3px solid rgba(199, 199, 199, 0.527);
+  height: 550px;
+  margin-left: 77px;
+  position: absolute;
+  margin-top: 90px;
+  border-radius: 14px;
+}
+
+.bumbd {
+  font-weight: 800;
+  margin-top: 20px;
+  position: absolute;
+  color: #252525;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+.dumb {
+  border: 2px solid rgba(145, 145, 145, 0.555);
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+  margin-left: 20px;
+  background-color: #ffffff7c;
+  cursor: pointer;
+}
+
+.dumb:hover {
+  background-color: #ffffff;
+}
+
+#aa {
+  background-color: #ffffff;
+}
+
+.inse {
+  border-style: double;
+  margin-top: 90px;
+  border-bottom: #f2f2f2;
+  opacity: 30%;
+}
+
+.qwe {
+  opacity: 30%;
+  filter: blur(1px);
+  background-color: rgb(61, 61, 61);
+  filter: brightness(100%);
+  border: 2px solid rgb(189, 189, 189);
+  height: 455px;
+  animation: lolt ease-in;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes lolt {
+  0% {
+    opacity: 10%;
+  }
+  50% {
+    opacity: 22%;
+  }
+  100% {
+    opacity: 10%;
+  }
+}
+
+.card {
+  filter: drop-shadow(2, 3);
+  position: absolute;
+  background-color: #fff;
+  height: 430px;
+  width: 300px;
+  overflow: hidden;
+  margin: 12px;
+  margin-left: 50px;
+  border-radius: 5px;
+  box-shadow: 9px 17px 45px -29px rgba(0, 0, 0, 0.44);
+}
+
+#asd {
+  margin-left: 440px;
+}
+
+#asd1 {
+  margin-left: 840px;
+}
+
+/* Card image loading */
+.card__image img {
+  width: 100%;
+  height: 100%;
+}
+
+.card__image.loading {
+  height: 220px;
+  width: 240px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+/* Card title */
+.card__title {
+  padding: 8px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.card__title.loading {
+  height: 0.5rem;
+  width: 50%;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  border-radius: 3px;
+}
+
+/* Card description */
+.card__description {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.card__description.loading {
+  height: 0.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  border-radius: 3px;
+}
+
+/* The loading Class */
+.loading {
+  position: relative;
+  background-color: #e2e2e2;
+}
+
+/* The moving element */
+.loading::after {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: translateX(-100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(transparent),
+    color-stop(rgba(255, 255, 255, 0.2)),
+    to(transparent)
+  );
+
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+
+  /* Adding animation */
+  animation: loading 0.8s infinite;
+}
+
+/* Loading Animation */
+@keyframes loading {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.down {
+  position: absolute;
+  font-size: 17px;
+  color: #e2e2e2;
+  margin-top: 300px;
+  width: 100%;
+  text-align: center;
+  font-weight: 800;
+}
+
+.loader {
+  color: #ffffff;
+  font-size: 60px;
+  text-indent: -9999em;
+  overflow: hidden;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  margin: 72px auto;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 560px;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: load6 1.7s infinite ease, round 1.7s infinite ease;
+  animation: load6 1.7s infinite ease, round 1.7s infinite ease;
+}
+@-webkit-keyframes load6 {
+  0% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em,
+      0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+  5%,
+  95% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em,
+      0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+  10%,
+  59% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em,
+      -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em,
+      -0.297em -0.775em 0 -0.477em;
+  }
+  20% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em,
+      -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em,
+      -0.749em -0.34em 0 -0.477em;
+  }
+  38% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em,
+      -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em,
+      -0.82em -0.09em 0 -0.477em;
+  }
+  100% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em,
+      0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+}
+@keyframes load6 {
+  0% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em,
+      0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+  5%,
+  95% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em,
+      0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+  10%,
+  59% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em,
+      -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em,
+      -0.297em -0.775em 0 -0.477em;
+  }
+  20% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em,
+      -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em,
+      -0.749em -0.34em 0 -0.477em;
+  }
+  38% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em,
+      -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em,
+      -0.82em -0.09em 0 -0.477em;
+  }
+  100% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em,
+      0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+}
+@-webkit-keyframes round {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes round {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
