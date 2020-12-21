@@ -1037,6 +1037,30 @@ select {
   width: 200px;
 }
 
+#img11 {
+  margin-top: 28px;
+  margin-left: 53px;
+  width: 200px;
+}
+
+#img12 {
+  margin-top: 24px;
+  margin-left: 63px;
+  width: 180px;
+}
+
+#img21 {
+  margin-top: 24px;
+  margin-left: 96px;
+  width: 120px;
+}
+
+#img22 {
+  margin-top: 27px;
+  margin-left: 50px;
+  width: 210px;
+}
+
 /* Caption text */
 .mussli .text {
   color: #f2f2f2;
