@@ -836,7 +836,7 @@ select {
 
 .section5 {
   padding: 7em 0em 7em 0em;
-  height: calc((100vh - 14em) * 4);
+  height: calc((100vh - 14em) * 4 + 130px);
   width: auto;
   margin-left: 0.5%;
   margin-right: 0.5%;
