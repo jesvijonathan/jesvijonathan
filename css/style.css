@@ -1195,7 +1195,7 @@ select {
 
 .bor {
   width: 88%;
-  border: 3px solid rgba(199, 199, 199, 0.527);
+  border: 0px solid rgba(199, 199, 199, 0.2);
   height: 550px;
   margin-left: 77px;
   position: absolute;
