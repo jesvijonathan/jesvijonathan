@@ -538,7 +538,7 @@ body {
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
   position: fixed;
-  width: 100%;
+  width: 1366px;
   height: 0px;
   visibility: visible;
   transition: 0.3s;
