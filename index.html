@@ -442,8 +442,8 @@
 
 
 
-
 <script>
+
 // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
 window.onscroll = function() {scrollFunction()};
 
@@ -568,4 +568,17 @@ const title = document.querySelector(".card__title");
    alert("Thank you " + document.getElementById("fname1").value + " for your feedback !\n\n"+"Unfortunately the server is down at the moment,\nPlease try again later..");
   }
 
+</script>
+
+
+
+<script>
+
+window.onload = function(){load()};
+
+function load(){
+  var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
+if (mobile) { 
+  alert("My Website is still not optimized for mobile view.. \nSo the scaling & alignment might be messed up\nSo use a PC for the best experience.");
+}
 </script>
