@@ -446,30 +446,7 @@
   </body>
 </html>
 
-<script> 
-        document.onreadystatechange = function() { 
 
-            if (document.readyState !== "complete") { 
-                document.querySelector( 
-                  "body").style.opacity = "0%"; 
-                  document.querySelector( 
-                  "body").style.visibility = "hidden"; 
-                document.querySelector( 
-                  "#loader").style.opacity = "100%"; 
-                  document.querySelector( 
-                  "#loader1").style.opacity = "100%"; 
-            } else { 
-                document.querySelector( 
-                  "#loader").style.opacity = "0%"; 
-                document.querySelector( 
-                  "body").style.visibility = "visible";
-                  document.querySelector( 
-                  "body").style.opacity = "100%"; 
-                  document.querySelector( 
-                  "#loader1").style.opacity = "0%";
-            } 
-        }; 
-    </script>
 
 <script>
 
@@ -599,3 +576,24 @@ if (check==true) {
 }
 }
 </script>
+
+<script> 
+        document.onreadystatechange = function() { 
+            if (document.readyState == "complete") { 
+                  document.querySelector( 
+                  "body").style.visibility = "visible";
+                  document.querySelector( 
+                  "#loader").style.visibility = "hidden"; 
+                  document.querySelector( 
+                  "#loader1").style.visibility = "hidden";
+            } else {
+                  document.querySelector( 
+                  "body").style.visibility = "hidden"; 
+                  document.querySelector( 
+                  "#loader").style.visibility = "visible"; 
+                  document.querySelector( 
+                  "#loader1").style.visibility = "visible";
+                  
+            } 
+        }; 
+    </script>

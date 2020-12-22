@@ -11,8 +11,6 @@ body {
   min-width: 1366;
   max-height: 786;
   min-height: 786;
-  visibility: hidden;
-  transition: 0.7s ease-in;
 }
 
 #loader {
@@ -22,8 +20,6 @@ body {
   width: 50px;
   height: 50px;
   animation: spin 1s linear infinite;
-  visibility: visible;
-  transition: 1s ease-in-out;
 }
 
 #loader1 {
@@ -33,7 +29,6 @@ body {
   width: 50px;
   visibility: visible;
   height: 50px;
-  transition: 1s ease-in-out;
 }
 
 @keyframes spin {
