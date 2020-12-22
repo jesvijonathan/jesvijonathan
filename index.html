@@ -18,10 +18,27 @@
 
   <title>Jesvi Jonathan</title>
   
+
     <div id="load">
  
 
   <body class="contents">
+  <div id="loader" class="center"></div> 
+  <script> 
+        document.onreadystatechange = function() { 
+            if (document.readyState !== "complete") { 
+                document.querySelector( 
+                  "body").style.visibility = "hidden"; 
+                document.querySelector( 
+                  "#loader").style.visibility = "visible"; 
+            } else { 
+                document.querySelector( 
+                  "#loader").style.display = "none"; 
+                document.querySelector( 
+                  "body").style.visibility = "visible"; 
+            } 
+        }; 
+    </script>
     <div class="topnav" id="topnav">
     <div class="navbut" id="navbut">
     
@@ -445,18 +462,6 @@
 </html>
 
 <script>
-document.onreadystatechange = function () {
-  var state = document.readyState
-  if (state == 'interactive') {
-       document.getElementById('contents').style.visibility="hidden";
-  } else if (state == 'complete') {
-      setTimeout(function(){
-         document.getElementById('interactive');
-         document.getElementById('load').style.visibility="hidden";
-         document.getElementById('contents').style.visibility="visible";
-      },1000);
-  }
-}
 </script>
 
 <script>
