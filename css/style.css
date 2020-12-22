@@ -11,6 +11,7 @@ body {
   min-width: 1366;
   max-height: 786;
   min-height: 786;
+  transition: 1s ease-in;
 }
 
 @font-face {
@@ -79,14 +80,24 @@ body {
 #loader {
   border: 9px solid #f3f3f3;
   border-radius: 50%;
-  font-family: "OCRAq";
-  font-weight: 800;
-  color: #f2f2f2;
   border-top: 9px solid #444444;
   width: 50px;
   height: 50px;
-  transition: 1s ease-in-out;
   animation: spin 1s linear infinite;
+  opacity: 100%;
+  visibility: visible;
+  transition: 0.5s ease-in-out;
+}
+
+#loader1 {
+  font-family: "OCRAq";
+  font-weight: 800;
+  color: #f2f2f2;
+  width: 50px;
+  height: 50px;
+  opacity: 100%;
+  visibility: visible;
+  transition: 0.5s ease-in-out;
 }
 
 @keyframes spin {

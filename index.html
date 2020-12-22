@@ -22,19 +22,25 @@
  
 
   <body class="contents">
-  <div id="loader" class="center"><br><br><br><br><br><br>Loading..</div> 
+  <div id="loader" class="center"></div> 
+  <div id="loader1" class="center"><br><br><br><br><br>Loading..</div>
   <script> 
         document.onreadystatechange = function() { 
             if (document.readyState !== "complete") { 
                 document.querySelector( 
-                  "body").style.visibility = "hidden"; 
+                  "body").style.opacity = "0%"; 
                 document.querySelector( 
-                  "#loader").style.visibility = "visible"; 
+                  "#loader").style.opacity = "100%"; 
+                  document.querySelector( 
+                  "#loader1").style.opacity = "100%"; 
             } else { 
                 document.querySelector( 
-                  "#loader").style.display = "none"; 
+                  "#loader").style.opacity = "0%"; 
                 document.querySelector( 
-                  "body").style.visibility = "visible"; 
+                  "body").style.opacity = "100%"; 
+                   
+                  document.querySelector( 
+                  "#loader1").style.opacity = "0%";
             } 
         }; 
     </script>
