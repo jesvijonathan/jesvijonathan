@@ -17,8 +17,11 @@
   <link href="../jesvijonathan/res/icon/css/all.css" rel="stylesheet" />
 
   <title>Jesvi Jonathan</title>
+  
+    <div id="load">
+ 
 
-  <body>
+  <body class="contents">
     <div class="topnav" id="topnav">
     <div class="navbut" id="navbut">
     
@@ -438,9 +441,23 @@
 
     </div>
   </body>
+  </div>
 </html>
 
-
+<script>
+document.onreadystatechange = function () {
+  var state = document.readyState
+  if (state == 'interactive') {
+       document.getElementById('contents').style.visibility="hidden";
+  } else if (state == 'complete') {
+      setTimeout(function(){
+         document.getElementById('interactive');
+         document.getElementById('load').style.visibility="hidden";
+         document.getElementById('contents').style.visibility="visible";
+      },1000);
+  }
+}
+</script>
 
 <script>
 
