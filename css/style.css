@@ -22,9 +22,8 @@ body {
   width: 50px;
   height: 50px;
   animation: spin 1s linear infinite;
-  opacity: 100%;
   visibility: visible;
-  transition: 0.7s ease-in-out;
+  transition: 1s ease-in-out;
 }
 
 #loader1 {
@@ -34,8 +33,7 @@ body {
   width: 50px;
   visibility: visible;
   height: 50px;
-  opacity: 100%;
-  transition: 0.7s ease-in-out;
+  transition: 1s ease-in-out;
 }
 
 @keyframes spin {
