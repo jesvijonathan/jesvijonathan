@@ -93,7 +93,6 @@ body {
   position: absolute;
   background-image: url("../res/img/pro.jpg");
   background-size: cover;
-  background-attachment: scroll;
   left: 0px;
   top: 0px;
   z-index: -1;
@@ -826,7 +825,6 @@ select {
   background-image: url("../res/img/pro3.jpg");
   position: absolute;
   background-size: cover;
-  background-attachment: scroll;
   margin-top: -112px;
   z-index: -3;
   opacity: 25%;
@@ -834,7 +832,7 @@ select {
   width: 98.8%;
 }
 
-​ .section5 {
+.section5 {
   padding: 7em 0em 7em 0em;
   height: 1770px;
   width: auto;
