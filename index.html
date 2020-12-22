@@ -19,16 +19,16 @@
   <title>Jesvi Jonathan</title>
   
 
- 
-
-  <body class="contents">
-  <div id="loader" class="center"></div> 
+   <div id="loader" class="center"></div> 
   <div id="loader1" class="center"><br><br><br><br><br>Loading..</div>
   <script> 
         document.onreadystatechange = function() { 
+
             if (document.readyState !== "complete") { 
                 document.querySelector( 
                   "body").style.opacity = "0%"; 
+                  document.querySelector( 
+                  "body").style.visibility = "hidden"; 
                 document.querySelector( 
                   "#loader").style.opacity = "100%"; 
                   document.querySelector( 
@@ -37,13 +37,17 @@
                 document.querySelector( 
                   "#loader").style.opacity = "0%"; 
                 document.querySelector( 
+                  "body").style.visibility = "visible";
+                  document.querySelector( 
                   "body").style.opacity = "100%"; 
-                   
                   document.querySelector( 
                   "#loader1").style.opacity = "0%";
             } 
         }; 
     </script>
+
+  <body class="contents">
+
     <div class="topnav" id="topnav">
     <div class="navbut" id="navbut">
     
