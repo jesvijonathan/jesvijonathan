@@ -102,6 +102,23 @@ body {
   opacity: 14%;
 }
 
+@media (max-width: 800px) {
+  .section1 {
+    background-color: #181818;
+  }
+  .section5 {
+    background-color: #383838;
+  }
+  .bgg1 {
+    display: none;
+    visibility: hidden;
+  }
+  .col {
+    display: none;
+    visibility: hidden;
+  }
+}
+
 .topb {
   border: 0px solid #ffffff;
   text-align: center;
@@ -834,7 +851,7 @@ select {
   width: 98.8%;
 }
 
-.section5 {
+​ .section5 {
   padding: 7em 0em 7em 0em;
   height: 1770px;
   width: auto;
