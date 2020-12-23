@@ -19,9 +19,9 @@
   <title>Jesvi Jonathan</title>
   
 
-   <div id="loader" class="center"></div> 
+   <div id="loader" class="center"></div>
   <div id="loader1" class="center"><br><br><br><br><br>Loading..</div>
-  
+  <div id="fill" ></div>
 
   <body class="contents">
 
@@ -564,14 +564,14 @@ function showSlides2(n) {
         document.onreadystatechange = function() { 
             if (document.readyState == "complete") { 
                   document.querySelector( 
-                  "body").style.visibility = "visible";
+                  "#fill").style.visibility = "hidden";
                   document.querySelector( 
                   "#loader").style.visibility = "hidden"; 
                   document.querySelector( 
                   "#loader1").style.visibility = "hidden";
             } else {
                   document.querySelector( 
-                  "body").style.visibility = "hidden"; 
+                  "#fill").style.visibility = "visible"; 
                   document.querySelector( 
                   "#loader").style.visibility = "visible"; 
                   document.querySelector( 
