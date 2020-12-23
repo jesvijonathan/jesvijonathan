@@ -11,6 +11,8 @@ body {
   min-width: 1366;
   max-height: 786;
   min-height: 786;
+  width: 1366;
+  height: 786;
 }
 
 #loader {
