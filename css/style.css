@@ -20,6 +20,7 @@ body {
   width: 50px;
   height: 50px;
   z-index: 31;
+  position: fixed;
   animation: spin 1s linear infinite;
 }
 
@@ -31,10 +32,11 @@ body {
   visibility: visible;
   height: 50px;
   z-index: 31;
+  position: fixed;
 }
 
 #fill {
-  background-color: #00000077;
+  background-color: #0000009c;
   z-index: 30;
   width: 100%;
   height: 100%;
