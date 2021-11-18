@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  background-color: black;
+  height: 100%;
+  margin: 0;
+}
+
+section {
+  color: rgb(255, 255, 255);
+}
+
+section:nth-child(1) {
+  background-color: lightblue;
+}
+
+@font-face {
+  font-family: "OCRA";
+  src: url("../font/OCRA.TTF") format("opentype");
+}
+
+@font-face {
+  font-family: "OCRAq";
+  src: url("../font/OCRAq.TTF") format("opentype");
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bg {
+  background: url("https://wallpapercave.com/wp/YYGLjYi.jpg");
+  background-size: cover center;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  filter: grayscale(90%);
+  filter: brightness(150%);
+  opacity: 14%;
+}
+
+.start {
+  position: absolute;
+  width: 88px;
+  height: 41px;
+  left: calc(50% - 88px / 2);
+  top: calc(50% - 41px / 2);
+
+  border: 1px solid #ffffff;
+
+  backdrop-filter: blur(10px);
+
+  border-radius: 10px;
+
+  font-family: "OCRAq";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 19px;
+
+  text-align: center;
+  padding: 10px 0;
+  top: 70%;
+  transition: 0.2s;
+  background-color: #ffffff00;
+  animation: glo 5s infinite ease;
+}
+
+@keyframes glo {
+  0% {
+    border: 1px solid #ffffff;
+  }
+  50% {
+    border: 1px solid rgba(255, 255, 255, 0);
+  }
+  100% {
+    border: 1px solid #ffffff;
+  }
+}
+
+.start:hover a {
+  color: #000000;
+}
+.start:hover {
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.logo {
+  position: absolute;
+  right: 0;
+  float: right;
+  height: 40;
+  width: 40px;
+  align-items: center;
+  border: 0px solid white;
+  margin-right: 1.9em;
+  margin-top: 1.42em;
+  transition: 0.3s ease-in-out;
+  opacity: 0;
+}
+
+section {
+  height: 100vh;
+
+  background: linear-gradient(
+    170deg,
+    #000000 10%,
+    #000000 44%,
+    rgba(0, 0, 0, 0.9) 50%,
+    rgba(0, 0, 0, 0.8) 65%,
+    rgba(0, 0, 0, 0.6) 80%,
+    rgba(0, 0, 0, 05) 100%
+  );
+}
+
+body section:nth-child(1) {
+}
+
+section:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    transparent 50%,
+    rgba(236, 236, 236, 0.055) 100%
+  );
+
+  z-index: -1;
+}

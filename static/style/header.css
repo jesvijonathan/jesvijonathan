@@ -1,0 +1,166 @@
+.topnav {
+  position: fixed;
+  background-color: #252525d2;
+  width: 100%;
+}
+
+.topname {
+  font-family: "OCRA";
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+  padding: 13px 4%;
+  float: left;
+  font-size: 40px;
+}
+
+.topicon {
+  float: right;
+  transform: scale(0.74);
+  width: 117px;
+  height: 0px;
+}
+
+.bgphoto {
+  height: calc(100vh - 14em);
+  filter: brightness(30%);
+
+  position: fixed;
+
+  z-index: -1;
+  top: 0;
+  left: 0;
+
+  height: 100%;
+  width: 100%;
+}
+
+.header-container {
+  width: 100%;
+  min-height: 120px;
+  position: fixed;
+  color: #fff;
+
+  z-index: 11;
+  background: linear-gradient(
+    180deg,
+    #000000 0%,
+    #000000 40%,
+    rgba(0, 0, 0, 0.7) 63.11%,
+    rgba(0, 0, 0, 0.5) 80.32%,
+    rgba(0, 0, 0, 0.3) 87.54%,
+    rgba(0, 0, 0, 0.2) 92.17%
+  );
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 2.4rem;
+  font-family: "OCRAq";
+}
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #ffffff;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-right: 3rem;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.nav-link:hover {
+  color: #482ff7;
+}
+
+.nav-logo {
+  font-size: 2.1rem;
+  font-weight: 500;
+  color: white;
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-menu {
+    left: 0;
+    position: fixed;
+    display: block;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s ease;
+    /*    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    */
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.6);
+
+    top: 0%;
+    height: 100%;
+
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .nav-link {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #ffffff;
+  }
+
+  .nav-menu.active {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .nav-item {
+    margin: 2.5rem 0;
+  }
+  .nav-item:nth-child(1) {
+    margin-top: 50%;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
