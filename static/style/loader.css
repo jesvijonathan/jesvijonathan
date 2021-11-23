@@ -86,7 +86,7 @@
 #cover-name {
   font-family: "OCRA";
   position: absolute;
-  top: 35%;
+  top: 38%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 270%;
@@ -97,7 +97,7 @@
   background-image: url("../images/giphy.webp");
   background-size: cover;
   color: transparent;
-  transition: 0.5s ease-in;
+  transition: 0.3s ease-in-out;
   -moz-background-clip: text;
   -webkit-background-clip: text;
 }
@@ -241,9 +241,8 @@
   height: 7px;
 
   position: absolute;
-  top: 60%;
   left: 50%;
-  transition: 1s ease-in-out;
+  bottom: 38%;
   transform: translate(-50%, -50%);
 }
 

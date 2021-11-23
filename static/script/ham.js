@@ -18,6 +18,7 @@ function closeMenu() {
 
 // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
 window.onscroll = function () {
+  bg();
   scrollFunction();
 };
 
@@ -34,11 +35,15 @@ function scrollFunction() {
   }
 }
 
-document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-  anchor.addEventListener("click", function (e) {
-    e.preventDefault();
-    document
-      .querySelector(this.getAttribute("href"))
-      .scrollIntoView({ behavior: "smooth" });
-  });
-});
+function bg() {
+  if (
+    document.body.scrollTop > 230 ||
+    document.documentElement.scrollTop > 230
+  ) {
+    document.getElementById("sec1").style.animation = "ba 0.3s 1 ease-in-out";
+    document.getElementById("sec1").style.opacity = 0;
+  } else {
+    document.getElementById("sec1").style.animation = "bb 0.3s 1 ease-in-out";
+    document.getElementById("sec1").style.opacity = 1;
+  }
+}

@@ -37,7 +37,7 @@
 
 .header-container {
   width: 100%;
-  min-height: 120px;
+  min-height: 100px;
   position: fixed;
   color: #fff;
 
@@ -46,10 +46,9 @@
     180deg,
     #000000 0%,
     #000000 40%,
-    rgba(0, 0, 0, 0.7) 63.11%,
-    rgba(0, 0, 0, 0.5) 80.32%,
-    rgba(0, 0, 0, 0.3) 87.54%,
-    rgba(0, 0, 0, 0.2) 92.17%
+    rgba(0, 0, 0, 0.8) 63.11%,
+    rgba(0, 0, 0, 0.7) 70.32%,
+    rgba(0, 0, 0, 0) 100%
   );
 }
 
