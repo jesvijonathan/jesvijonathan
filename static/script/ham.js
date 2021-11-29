@@ -16,11 +16,25 @@ function closeMenu() {
   navMenu.classList.remove("active");
 }
 
+//init();
 // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
 window.onscroll = function () {
   bg();
   scrollFunction();
+
+  heads();
 };
+
+function heads() {
+  if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+    //checkPosition();
+    document.getElementById("header-container").style.opacity = "0";
+    //document.getElementById("logo_id").style.opacity = "0";
+  } else {
+    document.getElementById("header-container").style.opacity = "1";
+    //document.getElementById("logo_id").style.opacity = "1";
+  }
+}
 
 function scrollFunction() {
   if (
@@ -33,6 +47,8 @@ function scrollFunction() {
     document.getElementById("cover-name").style.opacity = "1";
     document.getElementById("logo_id").style.opacity = "0";
   }
+
+  //checkPosition();
 }
 
 function bg() {
@@ -79,3 +95,93 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " active";
 }
+/*
+var elements;
+var windowHeight;
+
+function init() {
+  elements = document.querySelectorAll(".hidden");
+  windowHeight = window.innerHeight;
+}
+
+function checkPosition() {
+  for (var i = 0; i < elements.length; i++) {
+    var element = elements[i];
+    var positionFromTop = elements[i].getBoundingClientRect().top;
+
+    if (positionFromTop - windowHeight <= 0) {
+      element.classList.add("fade-in-element");
+      element.classList.remove("hidden");
+    }
+  }
+}
+
+window.addEventListener("resize", init);
+*/
+
+var i = 0;
+var j = 0;
+var s = 0;
+var t = 0;
+var g = 0;
+
+var txt = "Hey ! ";
+var txt1 = "Hey ! This is Jesvi Jonathan"; /* The text  Jesvi Jonathan here ✌️*/
+var txt2 =
+  "I am a sophomore persuing a degree in Bachelor of Technology in artificial intelligence & data science engineering.";
+var txt3 =
+  "Music, gaming, projects, etc is how I spend my paste time and my areas of ineterest are wide and am still exploring all oppurtunities.. Feel free to Contact me for collaboration :)";
+var txt4 = "Wanna know more ?";
+var speed = 50; /* The speed/duration of the effect in milliseconds */
+
+function typeWriter() {
+  document.getElementById("secl").style.minHeight = "720px";
+  document.getElementById("header-container").style.opacity = "0";
+  document.getElementById("gifo").style.opacity = "0";
+  typewr();
+  setTimeout(typeWriter1, 1500);
+  setTimeout(typeWriter2, 4500);
+  setTimeout(typeWriter3, 10500);
+  setTimeout(typeWriter4, 20000);
+}
+function typewr() {
+  document.getElementById("revb").style.opacity = 0;
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typewr, speed);
+    j = i;
+  }
+}
+function typeWriter1() {
+  if (j < txt2.length) {
+    document.getElementById("demo").innerHTML += txt1.charAt(j);
+    j++;
+    setTimeout(typeWriter1, speed);
+  }
+}
+
+function typeWriter2() {
+  if (s < txt2.length) {
+    document.getElementById("demo2").innerHTML += txt2.charAt(s);
+    s++;
+    setTimeout(typeWriter2, speed);
+  }
+}
+
+function typeWriter3() {
+  if (t < txt3.length) {
+    document.getElementById("demo3").innerHTML += txt3.charAt(t);
+    t++;
+    setTimeout(typeWriter3, speed);
+  }
+}
+
+function typeWriter4() {
+  if (g < txt4.length) {
+    document.getElementById("demo4").innerHTML += txt4.charAt(g);
+    g++;
+    setTimeout(typeWriter4, speed);
+  }
+}
+//https://media.istockphoto.com/vectors/user-profile-icon-vector-avatar-portrait-symbol-flat-shape-person-vector-id1225790722?s=612x612

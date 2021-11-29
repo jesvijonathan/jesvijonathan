@@ -1,3 +1,31 @@
+@font-face {
+  font-family: "OCRA";
+  src: url("../font/OCRA.TTF") format("opentype");
+}
+
+@font-face {
+  font-family: "OCRAq";
+  src: url("../font/OCRAq.TTF") format("opentype");
+}
+
+#cover-name {
+  font-family: "OCRA";
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 270%;
+  width: fit-content;
+  visibility: visible;
+  animation: flash 1 4s ease-in;
+  z-index: 9;
+  background-image: url("../images/giphy.webp");
+  background-size: cover;
+  color: transparent;
+  transition: 0.28s ease-in-out;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+}
 .load {
   color: #ffffff;
 }
@@ -19,16 +47,6 @@
 
   z-index: 35;
   animation: spin 1s linear infinite;
-}
-
-@font-face {
-  font-family: "OCRA";
-  src: url("../font/OCRA.TTF") format("opentype");
-}
-
-@font-face {
-  font-family: "OCRAq";
-  src: url("../font/OCRAq.TTF") format("opentype");
 }
 
 #loader-text {
@@ -81,25 +99,6 @@
   }
   100% {
   }
-}
-
-#cover-name {
-  font-family: "OCRA";
-  position: absolute;
-  top: 38%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 270%;
-  width: fit-content;
-  visibility: visible;
-  animation: flash 1 4s ease-in;
-  z-index: 9;
-  background-image: url("../images/giphy.webp");
-  background-size: cover;
-  color: transparent;
-  transition: 0.28s ease-in-out;
-  -moz-background-clip: text;
-  -webkit-background-clip: text;
 }
 
 #cover-name .onLoad {
