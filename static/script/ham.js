@@ -132,56 +132,55 @@ var txt2 =
 var txt3 =
   "Music, gaming, projects, etc is how I spend my paste time and my areas of ineterest are wide and am still exploring all oppurtunities.. Feel free to Contact me for collaboration :)";
 var txt4 = "Wanna know more ?";
-var speed = 50; /* The speed/duration of the effect in milliseconds */
+var speed = 20; /* The speed/duration of the effect in milliseconds */
 
+function contact() {
+  document.getElementById("inbtwId").style.height = "80px";
+  document.getElementById("ncontact").style.visibility = "visible";
+  document.getElementById("ncontact").style.opacity = "1";
+  document.getElementById("ncontact").style.animation =
+    "fade-in-glow 3s infinite ease-in-out";
+}
 function typeWriter() {
   document.getElementById("secl").style.minHeight = "720px";
   document.getElementById("header-container").style.opacity = "0";
   document.getElementById("gifo").style.opacity = "0";
+  document.getElementById("revb").style.opacity = "0";
+
   typewr();
   setTimeout(typeWriter1, 1500);
-  setTimeout(typeWriter2, 4500);
-  setTimeout(typeWriter3, 10500);
-  setTimeout(typeWriter4, 20000);
+  setTimeout(typeWriter2, 3000);
+  setTimeout(typeWriter3, 5700);
+  setTimeout(contact, 6500);
+
+  if (window.matchMedia("(max-height: 480px)").matches) {
+    document.getElementById("prof-im").style.height = "0px";
+    document.getElementById("prof-im").style.width = "0px";
+    document.getElementById("prof-im").style.marginBottom = "0px";
+    document.getElementById("prof-im").style.marginTop = "30px";
+  } else {
+    document.getElementById("prof-im").style.marginTop = "40px";
+    document.getElementById("prof-im").style.marginBottom = "40px";
+  }
 }
 function typewr() {
-  document.getElementById("revb").style.opacity = 0;
-  if (i < txt.length) {
-    document.getElementById("demo").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typewr, speed);
-    j = i;
-  }
+  document.getElementById("demo").style.opacity = "1";
 }
 function typeWriter1() {
-  if (j < txt2.length) {
-    document.getElementById("demo").innerHTML += txt1.charAt(j);
-    j++;
-    setTimeout(typeWriter1, speed);
-  }
+  document.getElementById("demo1").style.opacity = "1";
 }
-
 function typeWriter2() {
-  if (s < txt2.length) {
-    document.getElementById("demo2").innerHTML += txt2.charAt(s);
-    s++;
-    setTimeout(typeWriter2, speed);
-  }
+  document.getElementById("demo2").style.opacity = "1";
 }
-
 function typeWriter3() {
-  if (t < txt3.length) {
-    document.getElementById("demo3").innerHTML += txt3.charAt(t);
-    t++;
-    setTimeout(typeWriter3, speed);
-  }
+  document.getElementById("demo3").style.opacity = "1";
 }
-
+/*
 function typeWriter4() {
   if (g < txt4.length) {
     document.getElementById("demo4").innerHTML += txt4.charAt(g);
     g++;
     setTimeout(typeWriter4, speed);
   }
-}
+}*/
 //https://media.istockphoto.com/vectors/user-profile-icon-vector-avatar-portrait-symbol-flat-shape-person-vector-id1225790722?s=612x612
