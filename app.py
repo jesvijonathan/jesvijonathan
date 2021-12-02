@@ -11,5 +11,9 @@ def index():
    title = title,
    description = description)
 
+@app.errorhandler(404)  
+def not_found(e):
+  return render_template("404.html")
+
 if __name__ == '__main__':
    app.run(host = '192.168.85.182', debug = True, port=5000)

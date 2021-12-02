@@ -439,6 +439,10 @@ section:after {
   border: 0px solid rgb(255, 255, 255);
 }
 
+.chana {
+  animation: roll2 10s infinite ease-in-out;
+}
+
 .chana1 {
   animation: roll 10s infinite ease-in-out;
 }
@@ -459,10 +463,6 @@ section:after {
     font-size: 0px;
   }
 }
-.chana {
-  animation: roll2 10s infinite ease-in-out;
-}
-
 @keyframes roll2 {
   0% {
     font-size: 15px;
@@ -631,6 +631,88 @@ section:after {
 }
 
 @media only screen and (max-width: 768px) {
+  .cha {
+    margin-top: 42px;
+
+    gap: 30px;
+  }
+  .cha-but {
+    margin: 20px;
+    min-width: 180px;
+    max-width: 200px;
+    min-height: 130px;
+    padding: 4px 14px 4px 14px;
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4px);
+    transition: 0.3s ease-in;
+    border: 2px solid white;
+
+    border: 1px solid rgba(255, 255, 255, 0);
+    cursor: pointer;
+  }
+  .cha-but:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  .cha-but:hover + .cha-img {
+    padding: 100px;
+  }
+  .conim {
+    width: 100%;
+  }
+  .cha-img {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    height: 77px;
+    width: 77px;
+    margin-top: -20%;
+    border: 1px solid rgb(255, 255, 255);
+  }
+  .cha-tex {
+    color: #ffffff;
+    font-family: "OCRAq";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    height: 100%;
+    margin-top: 14px;
+    text-align: center;
+    width: 100%;
+    border: 0px solid rgb(255, 255, 255);
+  }
+  .chana {
+    animation: roll2 10s infinite ease-in-out;
+  }
+
+  .chana1 {
+    animation: roll 10s infinite ease-in-out;
+  }
+  .cha-tex2 {
+    color: #ffffff;
+    margin-top: 13px;
+    font-weight: 200;
+    font-size: 10px;
+    text-align: center;
+    width: fit-content;
+
+    padding: 5px 14px 5px 14px;
+    border-radius: 7px;
+    border: 0px solid rgba(255, 0, 0, 0.5);
+    background-color: rgba(255, 0, 0, 0.4);
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.1s ease-in;
+  }
+  .cha-tex2:hover {
+    background-color: rgb(255, 0, 0);
+  }
+  .sub-con {
+    border: 0px solid rgb(255, 255, 255);
+  }
+
   .music-img {
     width: 40px;
     height: 40px;
@@ -951,4 +1033,212 @@ section:after {
   opacity: 0;
 
   transition: 0.5s ease-in;
+}
+
+.rel-con {
+  border: 0px solid white;
+  height: 400px;
+  width: 100%;
+
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.rel-card-con {
+  border: 0px solid rgb(255, 255, 255);
+  height: 360px;
+  width: 300px;
+
+  min-height: 300px;
+  border-radius: 14px;
+  transition: 0.3s ease-in-out;
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
+  transition: 0.3s ease-in-out;
+  background-image: linear-gradient(
+      170deg,
+      rgba(0, 0, 0, 0.486) 0%,
+      rgba(0, 0, 0, 0.726) 30%,
+      rgb(0, 0, 0, 1) 100%
+    ),
+    url("../images/background_1.jpg");
+
+  border: 0px solid rgba(255, 255, 255, 0);
+  background-position: center;
+  background-size: cover;
+  color: rgba(255, 255, 255, 0.897);
+  backdrop-filter: blur(5px);
+  z-index: 0;
+}
+.blu {
+  position: absolute;
+  border: 0px solid white;
+  height: 100%;
+  width: 100%;
+  backdrop-filter: blur(3px);
+  background-color: #0000006c;
+  top: 0;
+  z-index: 0;
+  transition: 0.3s ease-in-out;
+  opacity: 0;
+}
+.rel-card-con:hover .blu {
+  opacity: 1;
+}
+.rel-card-con:hover {
+  border: 0px solid rgb(255, 255, 255);
+}
+#card1 {
+}
+#card2 {
+}
+
+.red-card-top {
+  border: 0px solid rgba(255, 255, 255, 0.507);
+  width: 100%;
+  height: 230px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "OCRAq";
+  gap: 24px;
+  transition: 0.3s ease-in-out;
+  z-index: 2;
+}
+.card-tex {
+  border: 0px solid rgba(255, 255, 255, 0.507);
+  width: 100%;
+  font-size: 9px;
+
+  font-weight: 100;
+  left: 50%;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: 0.3s ease-in-out;
+  user-select: none;
+  z-index: 2;
+}
+.he {
+  margin-top: 30px;
+  font-weight: 900;
+  font-size: 20px;
+  left: 50%;
+  margin-top: 53%;
+
+  min-width: 240px;
+  max-width: 240px;
+
+  white-space: pre-wrap;
+}
+.lo {
+  transition: 0.3s ease-in-out;
+  border: 0px solid white;
+  left: 0%;
+  text-align: left;
+  opacity: 0;
+  width: 100%;
+  white-space: pre-wrap;
+}
+.emps {
+}
+.rel-card-con:hover .card-tex {
+  left: 0%;
+  transition: 0.3s;
+}
+.rel-card-con:hover .lo {
+  opacity: 1;
+}
+.rel-card-con:hover .he {
+  left: 0;
+
+  margin-top: -10%;
+
+  margin-bottom: 10%;
+}
+.rel-card-con:hover .red-card-but {
+  opacity: 1;
+
+  visibility: visible;
+}
+.rel-card-con:hover .bgim {
+  opacity: 1;
+}
+.red-card-but {
+  border: 1px solid rgba(255, 255, 255, 0.507);
+  padding: 7px 15px 7px 15px;
+  border-radius: 7px;
+
+  position: relative;
+  top: 100px;
+  float: right;
+  left: 14px;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+
+  background-position: center;
+  z-index: 2;
+}
+.bgim {
+  background-image: linear-gradient(
+    40deg,
+    rgba(0, 0, 0, 0.486) 0%,
+    rgba(0, 0, 0, 0.8) 30%,
+    rgb(0, 0, 0, 1) 100%
+  );
+  position: absolute;
+  opacity: 1;
+}
+.red-card-but:hover {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+  background-color: #f2f2f2;
+  color: #000000;
+}
+
+.card-im {
+  margin-top: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 18%;
+  background-position: center;
+  background-size: contain;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#card1:hover + #cim {
+  opacity: 1;
+}
+
+.scrolling-wrapper {
+  overflow: hidden;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+  vertical-align: top;
+  max-width: 720px;
+  padding: 7%;
+  border: 0px solid white;
+  -webkit-overflow-scrolling: touch;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+  scroll-margin: 50px 0 0 50px;
+}
+
+.scrolling-wrapper::-webkit-scrollbar {
+  display: none; /*Safari and Chrome */
 }
