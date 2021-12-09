@@ -11,6 +11,14 @@ def index():
    title = title,
    description = description)
 
+@app.route("/temp")
+def temp():
+   title = "Jesvi Jonathan"
+   description = "Temporary & experimental stuff here !"
+   return render_template('temp.html',
+   title = title,
+   description = description)
+
 @app.errorhandler(404)  
 def not_found(e):
   return render_template("404.html")
