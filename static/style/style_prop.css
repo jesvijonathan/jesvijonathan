@@ -1242,3 +1242,69 @@ section:after {
 .scrolling-wrapper::-webkit-scrollbar {
   display: none; /*Safari and Chrome */
 }
+
+.err {
+  color: white;
+  text-align: center;
+  font-family: "OCRAq";
+  transition: 0.3s ease-in-out;
+  z-index: 2;
+  font-size: 35px;
+  border: 0px solid white;
+  width: 100%;
+  height: fit-content;
+  opacity: 1;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.pag {
+  font-size: 14px;
+  transition: 0.3s ease-in-out;
+}
+
+.b {
+  font-size: 14px;
+  font-weight: 900;
+  cursor: pointer;
+  text-decoration: none;
+  top: 130px;
+  visibility: visible;
+}
+
+.an {
+  font-size: 16px;
+  padding-left: 10px;
+  animation: arr 1.4s infinite ease-out;
+}
+.anl {
+  font-size: 16px;
+  padding-right: 10px;
+  animation: arl 1.4s infinite ease-out;
+}
+
+@keyframes arr {
+  0% {
+    padding-left: 10px;
+  }
+  50% {
+    padding-left: 17px;
+  }
+  100% {
+    padding-left: 10px;
+  }
+}
+@keyframes arl {
+  0% {
+    padding-right: 10px;
+  }
+  50% {
+    padding-right: 17px;
+  }
+  100% {
+    padding-right: 10px;
+  }
+}

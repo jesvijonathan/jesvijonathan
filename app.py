@@ -23,5 +23,10 @@ def temp():
 def not_found(e):
   return render_template("404.html")
 
+
+@app.route("/m")
+def not_founds():
+  return render_template("50077.html")
+
 if __name__ == '__main__':
    app.run(host = '192.168.85.182', debug = True, port=5000)
