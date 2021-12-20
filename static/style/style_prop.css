@@ -1308,3 +1308,9 @@ section:after {
     padding-right: 10px;
   }
 }
+
+.errorh {
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
