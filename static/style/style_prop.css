@@ -1311,6 +1311,6 @@ section:after {
 
 .errorh {
   overflow: hidden;
-  overflow-x: hidden;
+  overflow-x: scroll;
   overflow-y: hidden;
 }
