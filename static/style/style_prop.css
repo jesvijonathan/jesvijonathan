@@ -17,6 +17,7 @@ body {
   background-color: black;
   height: 100%;
   margin: 0;
+  user-select: none;
 }
 
 @font-face {
@@ -37,7 +38,7 @@ body {
 }
 
 .bg {
-  background: url("https://wallpapercave.com/wp/YYGLjYi.jpg");
+  background: url("../images/YYGLjYi-doodle-wallpapers.jpg");
   background-size: cover center;
   height: 100%;
   width: 100%;
@@ -1070,7 +1071,7 @@ section:after {
   background-position: center;
   background-size: cover;
   color: rgba(255, 255, 255, 0.897);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(0px);
   z-index: 0;
 }
 .blu {
@@ -1078,7 +1079,7 @@ section:after {
   border: 0px solid white;
   height: 100%;
   width: 100%;
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(0px);
   background-color: #0000006c;
   top: 0;
   z-index: 0;
