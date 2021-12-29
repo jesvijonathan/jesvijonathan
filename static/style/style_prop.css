@@ -18,6 +18,7 @@ body {
   height: 100%;
   margin: 0;
   user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 @font-face {
@@ -304,7 +305,6 @@ section:after {
 
   text-align: center;
   padding-top: 55px;
-  padding-bottom: 20px;
 }
 
 .titl-min {
@@ -384,16 +384,16 @@ section:after {
   background-position: center;
 }
 
-.cha {
+.chal {
   border: 0px solid white;
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 3px;
+  width: 100%;
 }
 
 .cha-but {
@@ -404,7 +404,6 @@ section:after {
   background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(4px);
   transition: 0.1s ease-in;
-
   border: 1px solid rgba(255, 255, 255, 0);
   cursor: pointer;
 }
@@ -520,7 +519,7 @@ section:after {
 .cframe {
   width: 560px;
   height: 315px;
-  border: 0px solid white;
+
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -631,30 +630,60 @@ section:after {
   }
 }
 
+.cha-desc {
+  display: none;
+}
+
+.cha-descr {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
-  .cha {
+  /*768*/
+  .chal {
     margin-top: 42px;
 
-    gap: 30px;
+    border: 0px solid white;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+  }
+  .cha {
   }
   .cha-but {
-    margin: 20px;
-    min-width: 180px;
+    min-width: 0px;
     max-width: 200px;
-    min-height: 130px;
-    padding: 4px 14px 4px 14px;
+    max-height: 120px;
     border-radius: 14px;
-    background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(5px);
     transition: 0.3s ease-in;
-    border: 2px solid white;
 
-    border: 1px solid rgba(255, 255, 255, 0);
+    border: 0px solid rgb(255, 255, 255);
     cursor: pointer;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .vline {
+    height: 27%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    position: absolute;
+    margin-bottom: 12%;
+    visibility: visible;
   }
   .cha-but:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(155, 39, 39, 0);
+    border: 0px solid rgba(255, 255, 255, 0);
   }
   .cha-but:hover + .cha-img {
     padding: 100px;
@@ -678,18 +707,83 @@ section:after {
     font-style: normal;
     font-weight: 200;
     font-size: 15px;
+
+    margin-left: 0px;
+    max-height: 43px;
     height: 100%;
     margin-top: 14px;
     text-align: center;
     width: 100%;
-    border: 0px solid rgb(255, 255, 255);
+    border-bottom: 7px solid rgba(255, 255, 255, 0);
+    border-radius: 4px;
+    border-style: groove;
+    visibility: visible;
+    transition: 0.2s ease-in-out;
+
+    float: none;
+    min-width: max-content;
+    max-width: 150px;
+    border: 5px solid rgba(255, 255, 255, 0);
+  }
+  .cha-desc {
+    opacity: 0;
+    width: 100%;
+    position: absolute;
+    color: #ffffff;
+    font-family: "OCRAq";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 12px;
+    border: 0px solid white;
+    width: 100%;
+    padding: 30px;
+    bottom: 48px;
+    transition: 0.4s ease;
+    visibility: visible;
+    display: block;
+  }
+  .cha-descr {
+    opacity: 1;
+    width: 100%;
+    color: #ffffff00;
+    font-family: "OCRAq";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 11px;
+    border: 0px solid white;
+    width: 100%;
+    padding: 30px;
+    padding-top: 7px;
+    visibility: visible;
+    display: block;
+  }
+  .chde {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+
+    visibility: visible;
+  }
+  .cha-but:hover + .cha-desc {
+    opacity: 1;
+  }
+  .cha-but:hover .cha-tex {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+  }
+  .cha22 {
+    visibility: visible;
+  }
+  .cha11 {
+    visibility: visible;
   }
   .chana {
-    animation: roll2 10s infinite ease-in-out;
+    animation: roll2 0s infinite ease-in-out;
+
+    visibility: hidden;
   }
 
   .chana1 {
-    animation: roll 10s infinite ease-in-out;
+    animation: roll 0s infinite ease-in-out;
   }
   .cha-tex2 {
     color: #ffffff;
@@ -712,6 +806,7 @@ section:after {
   }
   .sub-con {
     border: 0px solid rgb(255, 255, 255);
+    visibility: hidden;
   }
 
   .music-img {
@@ -747,12 +842,36 @@ section:after {
     padding-left: 7px;
   }
   .vid-con {
-    width: min-content;
+    width: 100%;
+    border: 0px solid rgb(0, 255, 242);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .music-vid iframe {
-    padding: 0px 0px 0px 0px;
+    padding: 0px 28px 0px 28px;
     padding-top: 35px;
+
+    max-width: fit-content;
+    width: 100%;
+    border: 0px solid rgb(255, 0, 0);
   }
+  .music-vid {
+    width: 100%;
+    border: 0px solid rgb(208, 255, 0);
+  }
+
+  /* .vid-con {
+    width: 100%;
+  }
+  .music-vid iframe {
+    padding: 0px 28px 0px 28px;
+    padding-top: 35px;
+    width: 100%;
+  } */
   .mus {
     display: block;
     width: 100%;
@@ -768,8 +887,11 @@ section:after {
     margin-top: 20px;
   }
   .cframe {
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
     height: 170px;
+
+    padding: 0px 28px 0px 28px;
     border-radius: 7px;
     border: 0px solid rgba(255, 255, 255, 0.8);
   }
@@ -787,7 +909,7 @@ section:after {
   .active,
   .dot:hover {
     background-color: #ffffff;
-    border: 1px solid white;
+    border: 0px solid white;
   }
   .prev,
   .next {
@@ -796,8 +918,8 @@ section:after {
   }
   .prev:hover,
   .next:hover {
-    background-color: rgba(68, 68, 68, 0);
-    border-radius: 28%;
+    background-color: rgba(68, 68, 68, 0.459);
+    border-radius: 50%;
   }
 }
 .test {
@@ -1274,6 +1396,7 @@ section:after {
   text-decoration: none;
   top: 130px;
   visibility: visible;
+  transition: 0.8s ease-in-out;
 }
 
 .an {
@@ -1312,6 +1435,65 @@ section:after {
 
 .errorh {
   overflow: hidden;
-  overflow-x: scroll;
+  overflow-x: hidden;
   overflow-y: hidden;
+}
+
+.more-sec {
+  border: 0px solid white;
+  width: 100%;
+  margin-top: 50px;
+
+  height: 48px;
+  position: relative;
+}
+
+.more-but {
+  border: 0px solid white;
+  padding: 3px 6px;
+  float: right;
+  margin-right: 30px;
+  top: 50%;
+  text-align: center;
+  font-family: "OCRAq";
+  transition: 0.3s ease-in-out;
+  font-size: 22px;
+  background-color: #00000000;
+  border-radius: 7px;
+  background-image: url("../images/gthan.png");
+  background-size: contain;
+  height: 30px;
+  width: 30px;
+  opacity: 0.7;
+}
+.more-but:hover {
+  background-color: #000000b0;
+  color: #000000;
+  opacity: 1;
+}
+
+.more-but:hover + .more-but2 {
+  visibility: visible;
+  opacity: 1;
+}
+
+.more-but2 {
+  border: 0px solid white;
+  padding: 3px 6px;
+  float: right;
+  text-align: center;
+  font-family: "OCRAq";
+  font-size: 18px;
+  background-color: #000000b0;
+  color: #ffffff;
+  border-radius: 7px;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 80px;
 }
