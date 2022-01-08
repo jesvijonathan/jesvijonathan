@@ -99,7 +99,7 @@ a {
 }
 
 .nav-link:hover {
-  color: #482ff7;
+  color: #ffffffec;
 }
 
 .nav-logo {
@@ -109,7 +109,106 @@ a {
   display: none;
 }
 
+.nbox {
+  border-bottom: 2px solid white;
+  width: 0%;
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+}
+.nav-link:hover + .nbox {
+  width: 100%;
+  opacity: 1;
+}
+
+.socials {
+  border: 0px solid white;
+  width: fit-content;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* top: 34px; */
+  top: 26px;
+  right: 0px;
+  margin-right: 2rem;
+
+  position: absolute;
+  transition: 0.1s ease-in-out;
+  z-index: 0;
+}
+
+.button_social_group a {
+  margin-right: 0.7rem;
+  border: 0px solid white;
+  transition: 0.3s ease-in-out;
+}
+.button_social_group:hover a:not(:hover) {
+  opacity: 0.4;
+}
+
+.fa {
+  transition: 0.3s ease-in-out;
+}
+.button_social_group a:hover .fa {
+  transform: rotateY(180deg);
+}
+
+.screen-reader-text,
+.nectar-skip-to-content:not(:focus) {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
 @media only screen and (max-width: 768px) {
+  .socials {
+    border: 0px solid white;
+    height: 30px;
+
+    margin: 0 auto;
+
+    top: unset;
+    position: fixed;
+    bottom: 10%;
+    width: 100%;
+    right: 0;
+    left: 0;
+
+    display: flex;
+    transition: 0.2s ease-in-out;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0.7rem;
+    visibility: hidden;
+  }
+
+  .button_social_group a {
+    margin: 0 auto;
+    margin-right: 0.7rem;
+    border: 0px solid white;
+
+    transition: 0.2s ease-in-out;
+  }
+
+  .hamburger.active ~ .socials {
+    visibility: visible;
+  }
+
+  .nav-link:hover {
+    color: #482ff7;
+  }
+
+  .nav-link:hover + .nbox {
+    width: 0%;
+    opacity: 0;
+  }
   .nav-menu {
     left: 0;
     position: fixed;
@@ -145,7 +244,7 @@ a {
     margin: 2.5rem 0;
   }
   .nav-item:nth-child(1) {
-    margin-top: 50%;
+    margin-top: 10rem; /*50% */
   }
 
   .hamburger {

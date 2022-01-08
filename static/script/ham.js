@@ -43,9 +43,21 @@ function scrollFunction() {
   ) {
     document.getElementById("cover-name").style.opacity = "0";
     document.getElementById("logo_id").style.opacity = "1";
+
+    if (!window.matchMedia("(max-width: 768px)").matches) {
+      document.getElementById("logoi").style.right = "-50px";
+      document.getElementById("logoi").style.opacity = "0";
+      document.getElementById("logoi").style.visibility = "hidden";
+    }
   } else {
     document.getElementById("cover-name").style.opacity = "1";
     document.getElementById("logo_id").style.opacity = "0";
+
+    if (!window.matchMedia("(max-width: 768px)").matches) {
+      document.getElementById("logoi").style.visibility = "visible";
+      document.getElementById("logoi").style.right = "0px";
+      document.getElementById("logoi").style.opacity = "1";
+    }
   }
 
   //checkPosition();
