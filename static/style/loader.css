@@ -82,7 +82,7 @@
   animation: faein 5s;
   opacity: 0;
 
-  z-index: -15;
+  z-index: 15;
 }
 
 @keyframes faein {
@@ -103,6 +103,7 @@
 }
 
 #cover-name .onLoad {
+  animation: bounceIn 2s;
   -webkit-animation: bounceIn 2s;
 }
 
