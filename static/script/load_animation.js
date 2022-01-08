@@ -23,3 +23,10 @@ document.onreadystatechange = function () {
     document.querySelector(".mini-loadering").style.visibility = "visible";
   }
 };
+
+// document.addEventListener("contextmenu", function (e) {
+//   e.preventDefault();
+// });
+// document.addEventListener("contextmenu", function (e) {
+//   e.preventDefault();
+// });

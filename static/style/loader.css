@@ -81,7 +81,8 @@
   position: fixed;
   animation: faein 5s;
   opacity: 0;
-  z-index: 15;
+
+  z-index: -15;
 }
 
 @keyframes faein {

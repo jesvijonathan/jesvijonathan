@@ -225,7 +225,8 @@ section:after {
 }
 */
 .title_sec {
-  height: 20vh;
+  height: 30vh;
+  max-height: 200px;
 
   position: relative;
   margin: 0 auto;
@@ -240,7 +241,7 @@ section:after {
   border: 13px solid #ffffff;*/
 
   position: relative;
-  top: 50%;
+  top: 44%;
   letter-spacing: -0.045em;
   font-family: "OCRAq";
   font-style: normal;
@@ -251,7 +252,6 @@ section:after {
 }
 
 .content-text {
-  margin-top: 7%;
   position: relative;
   border: 0px solid white;
   color: #ffffff;
@@ -336,7 +336,7 @@ section:after {
 }
 
 .music-con {
-  width: 160px;
+  width: 190px;
   height: 60px;
   background: rgba(0, 0, 0, 0.03);
   border: 1px solid #ffffff;
@@ -401,7 +401,7 @@ section:after {
   min-width: 300px;
   padding: 10px 28px 10px 28px;
   border-radius: 14px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(4px);
   transition: 0.1s ease-in;
   border: 1px solid rgba(255, 255, 255, 0);
@@ -519,7 +519,7 @@ section:after {
 .cframe {
   width: 560px;
   height: 315px;
-
+  border: 0px;
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -598,7 +598,7 @@ section:after {
   height: 12px;
   width: 12px;
   margin: 0 2px;
-  border: 2px solid rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
 
   background-color: #ffffff00;
   border-radius: 50%;
@@ -640,6 +640,7 @@ section:after {
 
 @media only screen and (max-width: 768px) {
   /*768*/
+
   .chal {
     margin-top: 42px;
 
@@ -661,7 +662,7 @@ section:after {
     max-height: 120px;
     border-radius: 14px;
     background-color: rgba(255, 255, 255, 0);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(0px);
     transition: 0.3s ease-in;
 
     border: 0px solid rgb(255, 255, 255);
@@ -679,7 +680,7 @@ section:after {
     border: 1px solid rgba(255, 255, 255, 0.3);
     position: absolute;
     margin-bottom: 12%;
-    visibility: visible;
+    visibility: hidden;
   }
   .cha-but:hover {
     background-color: rgba(155, 39, 39, 0);
@@ -711,7 +712,7 @@ section:after {
     margin-left: 0px;
     max-height: 43px;
     height: 100%;
-    margin-top: 14px;
+    margin-top: 0px;
     text-align: center;
     width: 100%;
     border-bottom: 7px solid rgba(255, 255, 255, 0);
@@ -736,8 +737,9 @@ section:after {
     font-size: 12px;
     border: 0px solid white;
     width: 100%;
+    max-width: 560px;
     padding: 30px;
-    bottom: 48px;
+    bottom: 0px;
     transition: 0.4s ease;
     visibility: visible;
     display: block;
@@ -755,7 +757,7 @@ section:after {
     padding: 30px;
     padding-top: 7px;
     visibility: visible;
-    display: block;
+    display: none;
   }
   .chde {
     color: #ffffff;
@@ -814,7 +816,7 @@ section:after {
     height: 40px;
   }
   .music-con {
-    width: 148px;
+    width: 150px;
     height: 52px;
     background: rgba(0, 0, 0, 0.03);
     border: 1px solid #ffffff;
@@ -832,6 +834,10 @@ section:after {
     margin-bottom: 30px;
     transition: 0.1s ease-in;
   }
+  #longnameshit {
+    display: none;
+  }
+
   .music-tex {
     color: #ffffff;
     font-family: "OCRAq";
@@ -913,13 +919,13 @@ section:after {
   }
   .prev,
   .next {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
   .prev:hover,
   .next:hover {
-    background-color: rgba(68, 68, 68, 0.459);
-    border-radius: 50%;
+    background-color: rgba(204, 204, 204, 0);
+    border-radius: 0%;
   }
 }
 .test {
@@ -1084,12 +1090,12 @@ section:after {
   color: #ffffff;
   background-color: #ffffff00;
   border: 0px solid white;
-  padding: 10px 25px;
+  padding: 8px 16px;
   transition: 0.3s;
   animation: glos 5s infinite ease;
   font-family: "OCRAq";
   font-weight: 500;
-  font-size: 15px;
+  font-size: 13px;
 }
 #revb a:hover {
   color: #000000;
@@ -1120,6 +1126,35 @@ section:after {
   transition: 1s;
   opacity: 0.8;
 }
+
+@media only screen and (max-width: 480px) {
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: unset;
+    margin-top: unset;
+    width: auto;
+
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.5s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .vline {
+    height: 27%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    position: absolute;
+    margin-bottom: 12%;
+    visibility: visible;
+  }
+}
+
 @media only screen and (max-height: 480px) {
   .gif {
     opacity: 0;
@@ -1360,6 +1395,7 @@ section:after {
   -ms-overflow-style: none; /* Internet Explorer 10+ */
   scrollbar-width: none; /* Firefox */
   scroll-margin: 50px 0 0 50px;
+  /* cursor: all-scroll; */
 }
 
 .scrolling-wrapper::-webkit-scrollbar {
@@ -1496,4 +1532,62 @@ section:after {
   justify-content: center;
   height: 30px;
   width: 80px;
+}
+.proj-link {
+  border: 0px solid white;
+  height: fit-content;
+
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.proj {
+  border: 0px solid yellow;
+  height: fit-content;
+  width: 160px;
+  border-radius: 7px;
+
+  backdrop-filter: blur(0px);
+  transition: 0.3s ease-in-out;
+}
+
+.proj-img-con {
+  width: 80px;
+  height: 80px;
+
+  cursor: pointer;
+}
+.proj-title {
+  margin-top: 20px;
+  color: #ffffff;
+
+  cursor: pointer;
+}
+.proj:hover .proj-desc {
+  opacity: 1;
+}
+
+.proj:hover {
+  backdrop-filter: blur(3px);
+}
+
+.proj-desc {
+  margin-top: 10px;
+  font-size: 10px;
+  color: #ffffff;
+  font-weight: 100;
+  padding: 6px 0px 6px 0px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 7px;
+  color: #ffffff;
+  opacity: 0;
+  transition: 0.2s ease-in-out;
+}
+#proj-more {
+  margin-top: 0px;
+}
+#more-mus {
+  margin-top: 40px;
 }
