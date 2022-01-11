@@ -25,6 +25,7 @@
   transition: 0.28s ease-in-out;
   -moz-background-clip: text;
   -webkit-background-clip: text;
+  text-align: center;
 }
 .load {
   color: #ffffff;

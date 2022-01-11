@@ -1,0 +1,130 @@
+@media only screen and (max-width: 769px) {
+}
+@media only screen and (max-width: 768px) {
+  .socials {
+    border: 0px solid white;
+    height: 30px;
+
+    margin: 0 auto;
+
+    top: unset;
+    position: fixed;
+    bottom: 10%;
+    width: 100%;
+    right: 0;
+    left: 0;
+
+    display: flex;
+    transition: 0.2s ease-in-out;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0.7rem;
+    visibility: hidden;
+  }
+
+  .button_social_group a {
+    margin: 0 auto;
+    margin-right: 0.7rem;
+    border: 0px solid white;
+
+    transition: 0.2s ease-in-out;
+  }
+
+  .hamburger.active ~ .socials {
+    visibility: visible;
+  }
+
+  .nav-link:hover {
+    color: #482ff7;
+  }
+
+  .nav-link:hover + .nbox {
+    width: 0%;
+    opacity: 0;
+  }
+  .nav-menu {
+    left: 0;
+    position: fixed;
+    display: block;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s ease;
+    /*    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+      */
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.6);
+
+    top: 0%;
+    height: 100%;
+
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .nav-link {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #ffffff;
+  }
+
+  .nav-menu.active {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .nav-item {
+    margin: 2.5rem 0;
+  }
+  .nav-item:nth-child(1) {
+    margin-top: 54%; /*50% */
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
+
+@media only screen and (max-height: 635px) and (max-width: 768px) {
+  .nav-item:nth-child(1) {
+    margin-top: 10rem; /*50% */
+  }
+}
+
+@media only screen and (max-height: 530px) and (max-width: 768px) {
+  .nav-item:nth-child(1) {
+    margin-top: 8rem; /*50% */
+  }
+  .nav-item {
+    margin: 0.8rem 0;
+  }
+}
+
+@media only screen and (max-height: 360px) and (max-width: 768px) {
+  .nav-item:nth-child(1) {
+    margin-top: 3rem; /*50% */
+  }
+  .nav-item {
+    margin: 1rem 0;
+  }
+}
+@media only screen and (max-height: 288px) and (max-width: 768px) {
+  .nav-item:nth-child(1) {
+    margin-top: 1rem; /*50% */
+  }
+  .nav-item {
+    margin: 1rem 0;
+  }
+}

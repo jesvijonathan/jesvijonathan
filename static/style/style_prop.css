@@ -607,12 +607,6 @@ section:after {
   visibility: visible;
 }
 
-.active,
-.dot:hover {
-  border: 2px solid rgb(255, 255, 255);
-  background-color: #ffffff;
-}
-
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
@@ -637,10 +631,17 @@ section:after {
 .cha-descr {
   display: none;
 }
-
+#proj-more {
+  margin-top: -10px;
+}
 @media only screen and (max-width: 768px) {
   /*768*/
-
+  #proj-more {
+    margin-top: -14px;
+  }
+  #more-d {
+    padding-top: 25px;
+  }
   .chal {
     margin-top: 42px;
 
@@ -732,17 +733,24 @@ section:after {
     position: absolute;
     color: #ffffff;
     font-family: "OCRAq";
-    font-style: normal;
-    font-weight: 100;
-    font-size: 12px;
     border: 0px solid white;
     width: 100%;
     max-width: 560px;
     padding: 30px;
-    bottom: 0px;
     transition: 0.4s ease;
     visibility: visible;
     display: block;
+
+    padding: 6px 0px 6px 0px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 7px;
+    color: #ffffffd0;
+    backdrop-filter: blur(3px);
+    font-size: 10px;
+    bottom: 60px;
+    width: 70%;
+    font-style: normal;
+    font-weight: 100;
   }
   .cha-descr {
     opacity: 1;
@@ -752,7 +760,7 @@ section:after {
     font-style: normal;
     font-weight: 100;
     font-size: 11px;
-    border: 0px solid white;
+    border: 2px solid white;
     width: 100%;
     padding: 30px;
     padding-top: 7px;
@@ -916,6 +924,7 @@ section:after {
   .dot:hover {
     background-color: #ffffff;
     border: 0px solid white;
+    transition: 0.4s ease-in-out;
   }
   .prev,
   .next {
@@ -1117,7 +1126,7 @@ section:after {
 .gif {
   position: absolute;
 
-  top: 50%;
+  top: 270px;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: -2;
@@ -1218,11 +1227,14 @@ section:after {
   transition: 0.3s ease-in-out;
   background-image: linear-gradient(
       170deg,
-      rgba(0, 0, 0, 0.486) 0%,
+      /* rgba(0, 0, 0, 0.486) 0%,
       rgba(0, 0, 0, 0.726) 30%,
-      rgb(0, 0, 0, 1) 100%
+      rgb(0, 0, 0, 1) 100% */
+        rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.3) 30%,
+      rgb(0, 0, 0, 0.7) 100%
     ),
-    url("../images/background_1.jpg");
+    url("../images/eb358ef5e79d807b230a9e3db18417c3.gif");
 
   border: 0px solid rgba(255, 255, 255, 0);
   background-position: center;
@@ -1233,11 +1245,12 @@ section:after {
 }
 .blu {
   position: absolute;
-  border: 0px solid white;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  border-radius: 14px;
   height: 100%;
   width: 100%;
-  backdrop-filter: blur(0px);
-  background-color: #0000006c;
+  backdrop-filter: blur(5px);
+  background-color: #0000006e;
   top: 0;
   z-index: 0;
   transition: 0.3s ease-in-out;
@@ -1329,7 +1342,7 @@ section:after {
   opacity: 1;
 }
 .red-card-but {
-  border: 1px solid rgba(255, 255, 255, 0.507);
+  border: 1px solid rgba(255, 255, 255, 0.4);
   padding: 7px 15px 7px 15px;
   border-radius: 7px;
 
@@ -1357,10 +1370,10 @@ section:after {
   opacity: 1;
 }
 .red-card-but:hover {
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0);
 
-  background-color: #f2f2f2;
-  color: #000000;
+  background-color: #f2f2f244;
+  color: #ffffff;
 }
 
 .card-im {
@@ -1537,7 +1550,7 @@ section:after {
   border: 0px solid white;
   height: fit-content;
 
-  margin-top: 30px;
+  margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1585,9 +1598,7 @@ section:after {
   opacity: 0;
   transition: 0.2s ease-in-out;
 }
-#proj-more {
-  margin-top: 0px;
-}
+
 #more-mus {
   margin-top: 40px;
 }
