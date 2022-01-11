@@ -920,12 +920,7 @@ section:after {
     border-radius: 50%;
     display: inline-block;
   }
-  .active,
-  .dot:hover {
-    background-color: #ffffff;
-    border: 0px solid white;
-    transition: 0.4s ease-in-out;
-  }
+
   .prev,
   .next {
     margin-left: 10%;
@@ -937,6 +932,14 @@ section:after {
     border-radius: 0%;
   }
 }
+
+.active,
+.dot:hover {
+  background-color: #ffffff;
+  border: 0px solid white;
+  transition: 0.4s ease-in-out;
+}
+
 .test {
   background: linear-gradient(
     170deg,
@@ -1263,6 +1266,8 @@ section:after {
   border: 0px solid rgb(255, 255, 255);
 }
 #card1 {
+  margin-left: 10%;
+  gap: 0px;
 }
 #card2 {
 }
