@@ -4,6 +4,7 @@ from flask import jsonify
 import json
 import datetime
 import pickle
+import requests
 
 app = Flask(__name__)
 
@@ -123,7 +124,15 @@ def log(x=None):
       log_id = str(data['log_no'])
       save_data()
 
-      uip = x['REMOTE_ADDR']
+      if request.headers.getlist("X-Forwarded-For"):
+         uip = request.headers.getlist("X-Forwarded-For")[0]
+      else:
+         try:
+            uip = request.remote_addr
+         except:
+            uip = x['REMOTE_ADDR']
+      # print(request.headers['X-Real-IP'])
+      
       ip_exists = False
 
       if uip in ip:
