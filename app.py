@@ -59,15 +59,6 @@ def index():
    title = title,
    description = description)
 
-@app.route("/r")
-def log_file():
-   lfile = open("./static/log.txt", "a+")
-   lfile.write("\nig")
-   x = lfile.read()
-   
-   lfile.close()
-   return make_response("deon")
-
 def log(x=None):
    log_text =None
    
@@ -116,7 +107,13 @@ def log(x=None):
          print(msg)
    
    try:
-      slog = open("./static/log.txt", "a+")
+      try:
+         slog = open("./static/log.txt", "a+")
+      except:
+         try:
+            slog = open("/home/jesvi/jesvijonathan/static/log.txt", "a+")
+         except:
+            raise Exception('Cant Open File')
    except:
       msg += "Failed To Open log.txt"
       print(msg)
