@@ -9,7 +9,6 @@ document.onreadystatechange = function () {
     //document.querySelector("#cover-name").style.position = "relative";
     document.querySelector(".loading").style.visibility = "hidden";
     document.querySelector(".loading").style.position = "absolute";
-    document.querySelector(".mini-loading").style.visibility = "hidden";
 
     // var myDiv = document.getElementById("#sec2");
     // myDiv.innerHTML = variableLongText;
@@ -20,7 +19,6 @@ document.onreadystatechange = function () {
     //document.querySelector("#cover-name").style.position = "fixed";
     document.querySelector(".loading").style.visibility = "visible";
     document.querySelector(".loading").style.position = "fixed";
-    document.querySelector(".mini-loading").style.visibility = "visible";
   }
 };
 

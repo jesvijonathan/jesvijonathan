@@ -1,5 +1,3 @@
-static/style/all.css
-static/images/background_1.jpg
-static/images/background_2.jpg
 .vscode/
 temp/
+__pycache__/
