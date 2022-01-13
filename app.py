@@ -209,7 +209,6 @@ def log(x=None):
 
          lfile.write(o)
          lfile.close()
-
  
    except Exception as e:
       print(e)
