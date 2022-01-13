@@ -6,7 +6,7 @@ import json
 api_key = 'AIzaSyAI8G2IK-j7fcy8omEciNg2vqTZfJcE3DM'
 
 channel_id = "UCHCOfxrbaGzMUCmwCvpCGjQ"
-playlist_id = "PLKp1OMeA1chIHgqoLfI9d1TiApvhxQ1fJ"
+
 
 def yt_get_channel_video_list():
     base_video_url = 'https://www.youtube.com/watch?v='
@@ -60,11 +60,12 @@ def yt_get_playlist_video(playlist_id):
     
     x = response["items"]
     playlist_items += x
-    x = json.dumps(playlist_items, indent=4, sort_keys=True, default=str)
+     
+    # x = json.dumps(playlist_items, indent=4, sort_keys=True, default=str)
     #request = youtube.playlistItems().list_next(request, response)
 
-    print(x)
+    # print(x)
     return x
 
-#yt_get_playlist_video(playlist_id)
+# yt_get_playlist_video(playlist_id)
 #yt_get_channel_video_list()

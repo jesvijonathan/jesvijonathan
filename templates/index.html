@@ -11,7 +11,8 @@
     <meta name="Name" content="Jesvi Jonathan" />
     
     <link rel="preload" as="font" href="/static/font/OCRA.TTF" type="font/TTF" crossorigin="anonymous">
-
+    <link rel="preload" as="font" href="/static/font/OCRAq.TTF" type="font/TTF" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="../static/style/loader.css" />
     <link rel="icon" href="../static/images/favicon.png" />
     <link rel="stylesheet" href="../static/style/style_prop.css" />
@@ -56,23 +57,23 @@
 
         <ul class="nav-menu">
           <li class="nav-item">
-            <a href="#secl" class="nav-link">About</a>
+            <a href="{{ hamb['0']['1'] }}" class="nav-link">{{ hamb['0']['0'] }}</a>
             <div class="nbox"></div>
           </li>
           <li class="nav-item" style="z-index: 30;">
-            <a href="#" class="nav-link">Latest</a>
+            <a href="{{ hamb['1']['1'] }}" class="nav-link">{{ hamb['1']['0'] }}</a>
             <div class="nbox"></div>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Blog</a>
+            <a href="{{ hamb['2']['1'] }}" class="nav-link">{{ hamb['2']['0'] }}</a>
             <div class="nbox"></div>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Contact</a>
+            <a href="{{ hamb['3']['1'] }}" class="nav-link">{{ hamb['3']['0'] }}</a>
             <div class="nbox"></div>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Social</a>
+            <a href="{{ hamb['4']['1'] }}" class="nav-link">{{ hamb['4']['0'] }}</a>
             <div class="nbox"></div>
           </li>
         </ul>
@@ -145,11 +146,13 @@
         Keep Supporting :)
       </div>
       <div class="music-vid">
-        <div class="vid-con">
-          <iframe src="https://www.youtube.com/embed/vQ7BeHjDqxg?controls=0">
+        <div class="vid-con"> 
+          
+          <iframe src="{{ links_1[0] }}">
           </iframe>
-          <iframe src="https://www.youtube.com/embed/a0a_WbPbo3U?controls=0">
-          </iframe>
+          <iframe src="{{ links_1[1] }}">
+          </iframe> 
+
         </div>
       </div> 
       <div class="title_min">
@@ -158,7 +161,7 @@
           <div class="music-but">
             <a
               class="music-con"
-              href="https://www.youtube.com/channel/UCle1DoWYu4gfKW3YQKezwsw"
+              href="{{ yt_1 }}"
               target="_blank"
             >
               <img
@@ -198,7 +201,7 @@
         </div>
        
       </div>
-      <div id="more-mus" class="more-sec"><a class="more-but" href="/artist_profile" target="_blank"></a><div  class="more-but2">More</div> </div>
+      <div id="more-mus" class="more-sec"><a class="more-but" href="{{ sec_2 }}" target="_blank"></a><div  class="more-but2">More</div> </div>
 
     </section>
     <section id="sec3">
@@ -219,7 +222,7 @@
         <div class="slideshow-container">
           <div class="mySlides fade">
             <iframe
-            src="https://www.youtube.com/embed/GJSpDZl8QPc?controls="
+            src="{{ links_2[0] }}"
               class="cframe"
             ></iframe>
             <div class="text">Latest Upload | Youtube</div>
@@ -231,7 +234,7 @@
           <div class="mySlides fade">
             <div class="numbertext">2 / 5</div>
             <iframe
-            src="https://www.youtube.com/embed/CQ7NWE9c_aY?controls=0"
+            src="{{ links_2[1] }}"
               class="cframe"
             ></iframe>
             <div class="text">Recent Upload | Youtube</div>
@@ -240,7 +243,7 @@
           <div class="mySlides fade">
             <div class="numbertext">3 / 5</div>
             <iframe
-              src="https://www.youtube.com/embed/YzH8dwkxTvs?controls=0"
+              src="{{ links_2[2] }}"
               class="cframe"
             ></iframe>
             <div class="text">Recent Upload | Youtube</div>
@@ -248,7 +251,7 @@
           <div class="mySlides fade">
             <div class="numbertext">4 / 5</div>
             <iframe
-              src="https://www.youtube.com/embed/DuUfn3Sjuv0?controls=0"
+              src="{{ links_2[3] }}"
               class="cframe"
             ></iframe>
             <div class="text">Popular | Youtube</div>
@@ -256,7 +259,8 @@
           <div class="mySlides fade">
             <div class="numbertext">5 / 5</div>
             <iframe
-              src="https://www.youtube.com/embed/videoseries?list=PLMsztBiO4ogZnNd9_qJul4cmlt3EC-9yB"
+              name="https://www.youtube.com/embed/videoseries?list=PLMsztBiO4ogZnNd9_qJul4cmlt3EC-9yB"
+              src="{{ links_2[4] }}"
               class="cframe"
             ></iframe>
             <div class="text">Old | Youtube</div>
@@ -285,7 +289,7 @@
           <div class="cha-but" id="chaa1">
             <a
               class="cha-con"
-              href="https://www.youtube.com/channel/UCHCOfxrbaGzMUCmwCvpCGjQ"
+              href="{{ yt_2 }}"
               target="_blank"
             ><div class="conim">
               <img
@@ -308,7 +312,7 @@
           <div class="cha-but" id="chaa2">
             <a
               class="cha-con"
-              href="https://www.youtube.com/channel/UCle1DoWYu4gfKW3YQKezwsw"
+              href="{{ yt_1 }}"
               target="_blank"
             ><div class="conim">
               <img
@@ -335,7 +339,7 @@
           <div class="chde" >Description</div>
           This is my early channel where I upload random content, mostly related to projects, demo, review, tutorial & what not...
         </div>
-        <div class="more-sec"><a class="more-but" href="/content_creation_lobby" target="_blank"></a><div  class="more-but2">More</div>  </div>
+        <div class="more-sec"><a class="more-but" href="{{ sec3 }}" target="_blank"></a><div  class="more-but2">More</div>  </div>
       </div>
     </section>
     <section id="sec3">
@@ -405,7 +409,7 @@
       <div class="title_min"  id="more-d" >
         <text class="titl-min">More Here<br /><br /></text>
         <div class="proj-link">
-          <a class="proj" href="https://github.com/jesvijonathan" target="_blank" >
+          <a class="proj" href="{{ proj_more }}" target="_blank" >
           <img class="proj-img-con" src="../static/images/icons8-github-384.png">
           <div class="proj-title">Github</div>
           <div class="proj-desc">github.com/jesvijonathan</div>
@@ -414,7 +418,7 @@
         </div>
        
       </div>
-      <div id="proj-more" class="more-sec"><a class="more-but" href="/project_history" target="_blank"></a><div  class="more-but2">More</div> </div>
+      <div id="proj-more" class="more-sec"><a class="more-but" href="{{ sec4 }}" target="_blank"></a><div  class="more-but2">More</div> </div>
 
     </section>
   </body><div class=".target"></div>

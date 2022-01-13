@@ -138,8 +138,6 @@ section {
   min-height: 460px;
 }
 
-section:nth-child(1) {
-}
 #sec1 {
   position: relative;
   height: 100vh;
@@ -414,8 +412,6 @@ section:after {
 .cha-but:hover + .cha-img {
   padding: 100px;
 }
-.cha-con {
-}
 
 .cha-img {
   float: left;
@@ -654,8 +650,6 @@ section:after {
     justify-content: center;
     align-items: center;
     padding: 3px;
-  }
-  .cha {
   }
   .cha-but {
     min-width: 0px;
@@ -1269,8 +1263,6 @@ section:after {
   margin-left: 10%;
   gap: 0px;
 }
-#card2 {
-}
 
 .red-card-top {
   border: 0px solid rgba(255, 255, 255, 0.507);
@@ -1321,8 +1313,6 @@ section:after {
   opacity: 0;
   width: 100%;
   white-space: pre-wrap;
-}
-.emps {
 }
 .rel-card-con:hover .card-tex {
   left: 0%;

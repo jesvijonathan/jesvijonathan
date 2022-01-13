@@ -5,3 +5,5 @@ for track in tracks:
     uri = track.uri
     track_info = client.get(uri)
     plays = track_info.playback_count
+
+    pass

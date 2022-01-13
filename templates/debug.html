@@ -9,12 +9,28 @@
     <meta name="author" content="Jesvi Jonathan" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="Name" content="Jesvi Jonathan" />
+    <meta http-equiv="{{ meta }}" content="{{ meta_time }}" />
 
     <link rel="icon" href="../static/images/favicon.png" />
     <link rel="stylesheet" href="../static/style/style_prop.css" />
     <link rel="stylesheet" href="../static/style/scrollbar.css" />
   </head>
-  <body style="color: rgb(255, 255, 255)">
+  <body style="color: rgb(255, 255, 255); user-select: auto; overflow: scroll">
     {{ here }}
+    <pre>{{n}}</pre>
+    <style>
+      body{
+        transition: 0.2s ease-in-out;
+        height: 100%;
+        margin: 0;
+      }
+      {{style}}
+    </style>
+    <script>
+      var c = "{{ scroll }}";
+      if (c == "") {
+        window.scrollTo(0, document.body.scrollHeight);
+      }
+    </script>
   </body>
 </html>
