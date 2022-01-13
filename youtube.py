@@ -69,20 +69,3 @@ def yt_get_playlist_video(playlist_id):
 
 # yt_get_playlist_video(playlist_id)
 #yt_get_channel_video_list()
-
-"""
-/static/font/	/home/jesvi/jesvijonathan/static/font/	 
-/static/font/images/	/home/jesvi/jesvijonathan/static/images/	 
-/static/style/	/home/jesvi/jesvijonathan/static/style/	 
-/static/script/	/home/jesvi/jesvijonathan/static/script/
-
-/home/jesvi/jesvijonathan/
-
-Go to directory
-Working directory:
-/home/jesvi/
-
-Go to directory
-WSGI configuration file:/var/www/jesvi_pythonanywhere_com_wsgi.py
-
-"""

@@ -132,16 +132,10 @@ def log(x=None):
          print(msg)
    
    try:
-      try:
-         slog = open("./static/log.txt", "a+")
-      except:
-         try:
-            slog = open("/home/jesvi/jesvijonathan/static/log.txt", "a+")
-         except:
-            raise Exception('Cant Open File')
-   except:
-      msg += "Failed To Open log.txt"
-      print(msg)
+      slog = open("./static/log.txt", "a+")
+   except: 
+      slog = open("/home/jesvi/jesvijonathan/static/log.txt", "a+")
+ 
    
    try:
       data['log_no']+=1   
@@ -187,7 +181,7 @@ def log(x=None):
       # in3 = str(x['REQUEST_METHOD'])
 
       # user_request = in2 + "; " + in1 + "; " + in3 
-      user_request = x['RAW_URI']
+      user_request = str(x['werkzeug.request'])
       #server = str(x['HTTP_HOST'])
 
       log_text = (
@@ -311,20 +305,16 @@ def da(daa="keys"):
 @app.route('/logger')
 def logg(live=None):
    print(live)
+   
    l = file = None
+
    try:
-      try:
-         with open('./static/log.txt', 'r') as file:
-            l = file.read()
-      except:
-         try:
-            with open('/home/jesvi/jesvijonathan/static/log.txt', 'r') as file:
-               l = file.read()
-         except:
-            return 'Cant Open File'
+      with open('./static/log.txt', 'r') as file:
+         l = file.read()
    except:
-      return "Failed To Open log.txt"
-      
+      with open('/home/jesvi/jesvijonathan/static/log.txt', 'r') as file:
+         l = file.read()
+
    # print(l)
    meta = meta_time = ""
    if live!=None:
