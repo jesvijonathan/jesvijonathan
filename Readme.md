@@ -68,7 +68,7 @@
 
 ## CIT - Takshashila 2023 Web Design :
 * [LINK] https://www.cittakshashila.in/
-* [VIDEO] https://youtu.be/QEEb_DrcnOs
+* [VIDEO] https://youtu.be/5Pb5kjApPLw
 * [GITHUB] https://github.com/jesvijonathan/Takshashila-2023-Web-Design
 
 ## CIT - Takshashila 2023 Event System : 
