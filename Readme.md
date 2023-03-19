@@ -59,7 +59,7 @@
 * [GITHUB] https://github.com/jesvijonathan/Cepher-Records
 
 ## Cepher Records Store : 
-* [GITHUB] https://github.com/jesvijonathan/Cepher-Records
+* [GITHUB] https://github.com/jesvijonathan/Cepher-Records/store
 
 ## Whatsapp Script :
 * [LINK] https://github.com/jesvijonathan/WhaScript/releases/download/v1.1.2/Wha-Script-ADB-Jesvi.zip
@@ -68,6 +68,7 @@
 
 ## CIT - Takshashila 2023 Web Design :
 * [LINK] https://www.cittakshashila.in/
+* [VIDEO] https://youtu.be/QEEb_DrcnOs
 * [GITHUB] https://github.com/jesvijonathan/Takshashila-2023-Web-Design
 
 ## CIT - Takshashila 2023 Event System : 
@@ -76,7 +77,7 @@
 
 
 ## Jesvi Music :
-* [Youtube] https://www.youtube.com/@Jesvi/about
+* [Youtube] https://www.youtube.com/@Jesvi
 * [Spotify] https://open.spotify.com/artist/3QDbey7DMg8f0jfhC8ETXZ?si=dV6jeZX9Rme1Qbw0Np3ciw&nd=1
 
 
