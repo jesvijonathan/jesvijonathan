@@ -45,7 +45,7 @@
 
 ## TALOS Designer WEBPAGE :
 * [LINK] https://jesvijonathan.github.io/talos-website/
-* [Video] https://studio.youtube.com/video/38wsXLJCXu0/edit
+* [Video] https://youtu.be/38wsXLJCXu0
 * [GITHUB] https://github.com/jesvijonathan/talos-website
 
 
