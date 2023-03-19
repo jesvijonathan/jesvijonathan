@@ -31,7 +31,7 @@
 * [XDA] https://forum.xda-developers.com/t/rom-sudo-rom-v1-1-stable-for-galaxy-c7-c7-pro-22-jun-21.3977881/
 * [GITHUB] https://github.com/jesvijonathan/Sudo-Rom-SM-C701F
 
-## AI Data Verification System :
+## AI/ML Data Verification System :
 * [DEMO] https://www.youtube.com/shorts/rBRwA6qeo2U
 * [LINK] https://explook.pythonanywhere.com/#
 * [GITHUB] https://github.com/jesvijonathan/SIH-Project-2022-Image-Verification
