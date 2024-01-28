@@ -20,6 +20,7 @@ body {
   user-select: none;
   -webkit-tap-highlight-color: transparent;
   overflow-y: scroll;
+  width: 100vw;
 }
 
 @font-face {
@@ -43,7 +44,7 @@ body {
   background: url("../images/YYGLjYi-doodle-wallpapers.jpg");
   background-size: cover center;
   height: 100%;
-  width: 100%;
+  width: 100vw;
   position: fixed;
   left: 0px;
   top: 0px;
