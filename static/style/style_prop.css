@@ -19,6 +19,7 @@ body {
   margin: 0;
   user-select: none;
   -webkit-tap-highlight-color: transparent;
+  overflow-y: scroll;
 }
 
 @font-face {
@@ -128,8 +129,8 @@ section {
     rgba(0, 0, 0, 0.6) 80%,
     rgba(0, 0, 0, 05) 100%
   );
-  
-  
+
+
   scroll-snap-stop: always;
 
   scroll-snap-align: start;
@@ -235,7 +236,7 @@ section:after {
 }
 
 .titl {
-  /* identical to box height, or 0px 
+  /* identical to box height, or 0px
   border: 13px solid #ffffff;*/
 
   position: relative;
@@ -306,7 +307,7 @@ section:after {
 }
 
 .titl-min {
-  /* identical to box height, or 0px 
+  /* identical to box height, or 0px
   border: 13px solid #ffffff;*/
 
   position: relative;
@@ -351,6 +352,14 @@ section:after {
   margin-top: 20px;
   margin-bottom: 30px;
   transition: 0.1s ease-in;
+}
+
+.scrolling-wrapper::-webkit-scrollbar {
+  position: absolute;
+  display: block;
+
+  height: 10px;
+  /*display: none; Safari and Chrome */
 }
 
 .music-but {
@@ -631,6 +640,10 @@ section:after {
   margin-top: -10px;
 }
 @media only screen and (max-width: 768px) {
+  .scrolling-wrapper::-webkit-scrollbar {
+    height: 1.2px;
+  }
+
   /*768*/
   #proj-more {
     margin-top: -14px;
@@ -1391,23 +1404,24 @@ section:after {
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
-
   vertical-align: top;
   max-width: 720px;
   padding: 7%;
+  z-index: 100;
+  padding-bottom: 1vw;
   border: 0px solid white;
   -webkit-overflow-scrolling: touch;
   display: flex;
-  flex-direction: row;
   gap: 30px;
-  -ms-overflow-style: none; /* Internet Explorer 10+ */
-  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
   scroll-margin: 50px 0 0 50px;
   /* cursor: all-scroll; */
-}
-
-.scrolling-wrapper::-webkit-scrollbar {
-  display: none; /*Safari and Chrome */
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
 }
 
 .err {

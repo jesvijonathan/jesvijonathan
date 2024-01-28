@@ -46,7 +46,7 @@
     left: 0;
     position: fixed;
     display: block;
-    width: 100%;
+    width: 100vw;
     text-align: center;
     transition: 0.3s ease;
     /*    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
